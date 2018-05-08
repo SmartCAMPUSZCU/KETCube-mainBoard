@@ -1,0 +1,72 @@
+*************************************************************
+FileName = KETCube.PcbDoc
+ODB++ directory structure
+*************************************************************
+Generated File : C:\Dokumenty\Projekty\IOT\SVN\06_HW\Lora Murata uBus\Projekt\Project Outputs for PCB_Project1\REV_C_PCB_DATA\REV_C1_PCB_DATA\odb\matrix\matrix
+
+Generated File : C:\Dokumenty\Projekty\IOT\SVN\06_HW\Lora Murata uBus\Projekt\Project Outputs for PCB_Project1\REV_C_PCB_DATA\REV_C1_PCB_DATA\odb\steps\pcb\profile
+
+Generated File : C:\Dokumenty\Projekty\IOT\SVN\06_HW\Lora Murata uBus\Projekt\Project Outputs for PCB_Project1\REV_C_PCB_DATA\REV_C1_PCB_DATA\odb\steps\pcb\stephdr
+
+Generated File : C:\Dokumenty\Projekty\IOT\SVN\06_HW\Lora Murata uBus\Projekt\Project Outputs for PCB_Project1\REV_C_PCB_DATA\REV_C1_PCB_DATA\odb\steps\pcb\attrlist
+
+Generated File : C:\Dokumenty\Projekty\IOT\SVN\06_HW\Lora Murata uBus\Projekt\Project Outputs for PCB_Project1\REV_C_PCB_DATA\REV_C1_PCB_DATA\odb\steps\pcb\layers\top_paste\features
+
+Generated File : C:\Dokumenty\Projekty\IOT\SVN\06_HW\Lora Murata uBus\Projekt\Project Outputs for PCB_Project1\REV_C_PCB_DATA\REV_C1_PCB_DATA\odb\steps\pcb\layers\top_paste\attrlist
+
+Generated File : C:\Dokumenty\Projekty\IOT\SVN\06_HW\Lora Murata uBus\Projekt\Project Outputs for PCB_Project1\REV_C_PCB_DATA\REV_C1_PCB_DATA\odb\steps\pcb\layers\top_overlay\features
+
+Generated File : C:\Dokumenty\Projekty\IOT\SVN\06_HW\Lora Murata uBus\Projekt\Project Outputs for PCB_Project1\REV_C_PCB_DATA\REV_C1_PCB_DATA\odb\steps\pcb\layers\top_overlay\attrlist
+
+Generated File : C:\Dokumenty\Projekty\IOT\SVN\06_HW\Lora Murata uBus\Projekt\Project Outputs for PCB_Project1\REV_C_PCB_DATA\REV_C1_PCB_DATA\odb\steps\pcb\layers\top_solder\features
+
+Generated File : C:\Dokumenty\Projekty\IOT\SVN\06_HW\Lora Murata uBus\Projekt\Project Outputs for PCB_Project1\REV_C_PCB_DATA\REV_C1_PCB_DATA\odb\steps\pcb\layers\top_solder\attrlist
+
+Generated File : C:\Dokumenty\Projekty\IOT\SVN\06_HW\Lora Murata uBus\Projekt\Project Outputs for PCB_Project1\REV_C_PCB_DATA\REV_C1_PCB_DATA\odb\steps\pcb\layers\top_layer\features
+
+Generated File : C:\Dokumenty\Projekty\IOT\SVN\06_HW\Lora Murata uBus\Projekt\Project Outputs for PCB_Project1\REV_C_PCB_DATA\REV_C1_PCB_DATA\odb\steps\pcb\layers\top_layer\attrlist
+
+Generated File : C:\Dokumenty\Projekty\IOT\SVN\06_HW\Lora Murata uBus\Projekt\Project Outputs for PCB_Project1\REV_C_PCB_DATA\REV_C1_PCB_DATA\odb\steps\pcb\layers\bottom_overlay\features
+
+Generated File : C:\Dokumenty\Projekty\IOT\SVN\06_HW\Lora Murata uBus\Projekt\Project Outputs for PCB_Project1\REV_C_PCB_DATA\REV_C1_PCB_DATA\odb\steps\pcb\layers\bottom_overlay\attrlist
+
+Generated File : C:\Dokumenty\Projekty\IOT\SVN\06_HW\Lora Murata uBus\Projekt\Project Outputs for PCB_Project1\REV_C_PCB_DATA\REV_C1_PCB_DATA\odb\steps\pcb\layers\bottom_paste\features
+
+Generated File : C:\Dokumenty\Projekty\IOT\SVN\06_HW\Lora Murata uBus\Projekt\Project Outputs for PCB_Project1\REV_C_PCB_DATA\REV_C1_PCB_DATA\odb\steps\pcb\layers\bottom_paste\attrlist
+
+Generated File : C:\Dokumenty\Projekty\IOT\SVN\06_HW\Lora Murata uBus\Projekt\Project Outputs for PCB_Project1\REV_C_PCB_DATA\REV_C1_PCB_DATA\odb\steps\pcb\layers\bottom_layer\features
+
+Generated File : C:\Dokumenty\Projekty\IOT\SVN\06_HW\Lora Murata uBus\Projekt\Project Outputs for PCB_Project1\REV_C_PCB_DATA\REV_C1_PCB_DATA\odb\steps\pcb\layers\bottom_layer\attrlist
+
+Generated File : C:\Dokumenty\Projekty\IOT\SVN\06_HW\Lora Murata uBus\Projekt\Project Outputs for PCB_Project1\REV_C_PCB_DATA\REV_C1_PCB_DATA\odb\steps\pcb\layers\pcb_outline\features
+
+Generated File : C:\Dokumenty\Projekty\IOT\SVN\06_HW\Lora Murata uBus\Projekt\Project Outputs for PCB_Project1\REV_C_PCB_DATA\REV_C1_PCB_DATA\odb\steps\pcb\layers\pcb_outline\attrlist
+
+Generated File : C:\Dokumenty\Projekty\IOT\SVN\06_HW\Lora Murata uBus\Projekt\Project Outputs for PCB_Project1\REV_C_PCB_DATA\REV_C1_PCB_DATA\odb\steps\pcb\layers\bottom_solder\features
+
+Generated File : C:\Dokumenty\Projekty\IOT\SVN\06_HW\Lora Murata uBus\Projekt\Project Outputs for PCB_Project1\REV_C_PCB_DATA\REV_C1_PCB_DATA\odb\steps\pcb\layers\bottom_solder\attrlist
+
+Generated File : C:\Dokumenty\Projekty\IOT\SVN\06_HW\Lora Murata uBus\Projekt\Project Outputs for PCB_Project1\REV_C_PCB_DATA\REV_C1_PCB_DATA\odb\steps\pcb\layers\drill\features
+
+Generated File : C:\Dokumenty\Projekty\IOT\SVN\06_HW\Lora Murata uBus\Projekt\Project Outputs for PCB_Project1\REV_C_PCB_DATA\REV_C1_PCB_DATA\odb\steps\pcb\layers\drill\attrlist
+
+Generated File : C:\Dokumenty\Projekty\IOT\SVN\06_HW\Lora Murata uBus\Projekt\Project Outputs for PCB_Project1\REV_C_PCB_DATA\REV_C1_PCB_DATA\odb\steps\pcb\layers\drill\tools
+
+Generated File : C:\Dokumenty\Projekty\IOT\SVN\06_HW\Lora Murata uBus\Projekt\Project Outputs for PCB_Project1\REV_C_PCB_DATA\REV_C1_PCB_DATA\odb\steps\pcb\layers\comp_+_top\features
+
+Generated File : C:\Dokumenty\Projekty\IOT\SVN\06_HW\Lora Murata uBus\Projekt\Project Outputs for PCB_Project1\REV_C_PCB_DATA\REV_C1_PCB_DATA\odb\steps\pcb\layers\comp_+_top\components
+
+Generated File : C:\Dokumenty\Projekty\IOT\SVN\06_HW\Lora Murata uBus\Projekt\Project Outputs for PCB_Project1\REV_C_PCB_DATA\REV_C1_PCB_DATA\odb\steps\pcb\layers\comp_+_bot\features
+
+Generated File : C:\Dokumenty\Projekty\IOT\SVN\06_HW\Lora Murata uBus\Projekt\Project Outputs for PCB_Project1\REV_C_PCB_DATA\REV_C1_PCB_DATA\odb\steps\pcb\layers\comp_+_bot\components
+
+Generated File : C:\Dokumenty\Projekty\IOT\SVN\06_HW\Lora Murata uBus\Projekt\Project Outputs for PCB_Project1\REV_C_PCB_DATA\REV_C1_PCB_DATA\odb\steps\pcb\eda\data
+
+Generated File : C:\Dokumenty\Projekty\IOT\SVN\06_HW\Lora Murata uBus\Projekt\Project Outputs for PCB_Project1\REV_C_PCB_DATA\REV_C1_PCB_DATA\odb\symbols\rect60x100_180_offset0x70\features
+
+Generated File : C:\Dokumenty\Projekty\IOT\SVN\06_HW\Lora Murata uBus\Projekt\Project Outputs for PCB_Project1\REV_C_PCB_DATA\REV_C1_PCB_DATA\odb\symbols\rect60x100_180_offset0x70\features
+
+Generated File : C:\Dokumenty\Projekty\IOT\SVN\06_HW\Lora Murata uBus\Projekt\Project Outputs for PCB_Project1\REV_C_PCB_DATA\REV_C1_PCB_DATA\odb\symbols\rect60x100_180_offset0x70\features
+
+Generated File : C:\Dokumenty\Projekty\IOT\SVN\06_HW\Lora Murata uBus\Projekt\Project Outputs for PCB_Project1\REV_C_PCB_DATA\REV_C1_PCB_DATA\odb\symbols\rect66.2992x106.2992_180_offset0x70\features
+

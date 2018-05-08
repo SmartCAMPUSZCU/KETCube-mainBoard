@@ -1,0 +1,3 @@
+Layer Pairs Export File for PCB: C:\Dokumenty\Projekty\IOT\SVN\06_HW\Lora Murata uBus\PCB\KETCube.PcbDoc
+LayersSetName=Top_Bot_Plated_Thru_Holes|DrillFile=ketcube_1805_c1-roundholes-plated.txt|DrillLayers=gtl,gbl
+LayersSetName=Top_Bot_Plated_Slot_Holes|DrillFile=ketcube_1805_c1-slotholes-plated.txt|DrillLayers=gtl,gbl
