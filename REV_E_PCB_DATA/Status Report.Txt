@@ -1,0 +1,21 @@
+Output: Gerber Files
+Type  : Gerber
+From  : Variant [Final] of PCB Document [KETCube.PcbDoc]
+   Generated File[KETCube_1808_E1.GTO]
+   Generated File[KETCube_1808_E1.GTP]
+   Generated File[KETCube_1808_E1.GTS]
+   Generated File[KETCube_1808_E1.GTL]
+   Generated File[KETCube_1808_E1.GBL]
+   Generated File[KETCube_1808_E1.GBS]
+   Generated File[KETCube_1808_E1.GBP]
+   Generated File[KETCube_1808_E1.GBO]
+   Generated File[KETCube_1808_E1.GM1]
+   Generated File[KETCube_1808_E1.RUL]
+   Generated File[KETCube_1808_E1.EXTREP]
+   Generated File[KETCube_1808_E1.REP]
+
+
+Files Generated   : 12
+Documents Printed : 0
+
+Finished Output Generation At 0:20:29 On 16.10.2018
