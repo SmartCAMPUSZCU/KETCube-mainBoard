@@ -1,0 +1,14 @@
+Project Outputs Generation Report
+---------------------------------
+Start Output Generation At 08:46:54 On 5/28/2021
+
+Output: Pick and Place
+Type  : BOM
+From  : Variant [Final] of Project [LoRa transceiver.PrjPcb]
+   Generated File[PickAndPlace_LoTr_210422_B1_Final.xlsm]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 08:47:28 On 5/28/2021

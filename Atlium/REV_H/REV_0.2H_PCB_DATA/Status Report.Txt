@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : PCB Document [KETCube_smd_NO_PADS.PcbDoc]
+   Generated File[KETCube2_0.2HPCB_revision-Plated.TXT]
+   Generated File[KETCube2_0.2HPCB_revision.LDP]
+   Generated File[KETCube2_0.2HPCB_revision.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 17:30:32 On 11/9/2020

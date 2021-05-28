@@ -1,0 +1,24 @@
+Output: Gerber X2 Files
+Type  : GerberX2
+From  : PCB Document [LoRa transceiver.PcbDoc]
+   Generated File[LoRa transceiver_Copper_Signal_Top.gbr]
+   Generated File[LoRa transceiver_Copper_Signal_1.gbr]
+   Generated File[LoRa transceiver_Copper_Signal_2.gbr]
+   Generated File[LoRa transceiver_Copper_Signal_Bot.gbr]
+   Generated File[LoRa transceiver_Paste_Bot.gbr]
+   Generated File[LoRa transceiver_Legend_Bot.gbr]
+   Generated File[LoRa transceiver_Soldermask_Bot.gbr]
+   Generated File[LoRa transceiver_Legend_Top.gbr]
+   Generated File[LoRa transceiver_Paste_Top.gbr]
+   Generated File[LoRa transceiver_Soldermask_Top.gbr]
+   Generated File[LoRa transceiver_Mechanical_1.gbr]
+   Generated File[LoRa transceiver_Profile.gbr]
+   Generated File[LoTr_210422_B1.RUL]
+   Generated File[LoTr_210422_B1.EXTREP]
+   Generated File[LoTr_210422_B1.REP]
+
+
+Files Generated   : 15
+Documents Printed : 0
+
+Finished Output Generation At 08:52:09 On 5/28/2021

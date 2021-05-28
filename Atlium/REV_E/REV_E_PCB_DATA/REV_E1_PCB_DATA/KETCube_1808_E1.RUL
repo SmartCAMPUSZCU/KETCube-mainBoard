@@ -1,0 +1,9 @@
+DRC Rules Export File for PCB: C:\Dokumenty\Projekty\IOT\SVN\06_HW\Lora Murata uBus\PCB\KETCube.PcbDoc
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion_1|Scope=Board|Minimum=3.15
+RuleKind=Clearance|RuleName=Clearance_5|Scope=Board|Minimum=7.87
+RuleKind=Clearance|RuleName=Clearance_2|Scope=Board|Minimum=7.87
+RuleKind=Clearance|RuleName=Clearance_1|Scope=Board|Minimum=0.00
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=3.15
+RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0
+RuleKind=Width|RuleName=Width|Scope=Board|Minimum=7.87
+RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=7.48

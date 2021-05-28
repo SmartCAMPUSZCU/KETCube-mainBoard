@@ -1,0 +1,19 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: KETCube.PcbDoc   02.05.2018  9:16:31
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII Plated RoundHoles File : KETCube_1805_C1-RoundHoles-Plated.TXT
+ASCII Plated SlotHoles File : KETCube_1805_C1-SlotHoles-Plated.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      12mil (0.3mm)                                             Round             135       PTH        0.00inch (0.00mm)
+T2      24mil (0.6mm)                                             Slot              2         PTH        0.00inch (0.00mm)
+T3      28mil (0.7mm)                                             Round             5         PTH        0.00inch (0.00mm)
+T4      35mil (0.889mm)                                           Round             28        PTH        0.00inch (0.00mm)
+T5      48mil (1.219mm)                                           Round             1         PTH        0.00inch (0.00mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              171
+
+Total Processing Time (hh:mm:ss) : 00:00:00

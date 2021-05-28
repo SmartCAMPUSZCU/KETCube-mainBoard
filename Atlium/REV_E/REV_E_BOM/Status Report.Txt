@@ -1,0 +1,14 @@
+Project Outputs Generation Report
+---------------------------------
+Start Output Generation At 0:15:50 On 16.10.2018
+
+Output: Copy of Bill of Materials
+Type  : BOM
+From  : Variant [Final] of Project [KETCube_Lora_Murata_uBus.PrjPcb]
+   Generated File[KETCube_1808_E2_Final.xlsx]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 0:17:24 On 16.10.2018

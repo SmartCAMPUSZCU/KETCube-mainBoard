@@ -1,0 +1,14 @@
+Project Outputs Generation Report
+---------------------------------
+Start Output Generation At 08:51:46 On 5/28/2021
+
+Output: Export STEP
+Type  : ExportSTEP
+From  : Variant [Final] of PCB Document [LoRa transceiver.PcbDoc]
+   Generated File[LoTr_210422_B1_Final.step]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 08:51:58 On 5/28/2021
