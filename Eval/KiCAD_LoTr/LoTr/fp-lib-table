@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name LoTr)(type KiCad)(uri ${KIPRJMOD}/LoTr.pretty)(options "")(descr ""))
+)
