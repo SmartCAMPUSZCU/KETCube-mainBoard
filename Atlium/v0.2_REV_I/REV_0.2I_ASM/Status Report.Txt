@@ -1,0 +1,14 @@
+Project Outputs Generation Report
+---------------------------------
+Start Output Generation At 13:04:12 On 5/28/2021
+
+Output: Pick and Place
+Type  : BOM
+From  : Variant [EDU] of PCB Document [KETCube_smd_NO_PADS.PcbDoc]
+   Generated File[PickAndPlace_KETCube2_0.2I _EDU.xlsx]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 13:05:03 On 5/28/2021
