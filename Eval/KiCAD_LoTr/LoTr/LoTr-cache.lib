@@ -45,6 +45,34 @@ X MISO 9 -600 -200 100 R 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
+# Connector_RF2-145A-T-17-50-G-HDW
+#
+DEF Connector_RF2-145A-T-17-50-G-HDW J 0 20 Y Y 1 F N
+F0 "J" -130 210 50 H V C CNN
+F1 "Connector_RF2-145A-T-17-50-G-HDW" 400 -10 50 V I C CNN
+F2 "SC_Connector:SMA_RF2-145A-T-17-50-G-HDW_EdgeMount" -580 -10 50 V I C CNN
+F3 "" 450 100 50 H I C CNN
+F4 "SMA Edge" 30 130 50 H V C CNN "DValue"
+F5 "CON_000512" 0 300 50 H I C CNN "#rice"
+F6 "2021-06-07" 740 -160 50 H I C CNN "Published"
+F7 "Ondrej Ruzicka" 740 -70 50 H I C CNN "Publisher"
+F8 "2021-06-07" 740 -260 50 H I C CNN "LastRevisionDate"
+F9 "init" 750 20 50 H I C CNN "LastRevisionNote"
+F10 "-" 750 100 50 H I C CNN "PackageIndex"
+$FPLIST
+ SC?Connector:SMA?RF2?145A?T?17?50?G?HDW?EdgeMount*
+$ENDFPLIST
+DRAW
+A 1 -1 71 1792 169 0 1 10 N -70 0 70 20
+A 1 0 71 -162 1800 0 1 10 N 70 -20 -70 0
+C 0 0 20 0 1 8 N
+P 2 0 1 0 -100 0 -20 0 N
+P 2 0 1 0 0 -100 0 -70 N
+X ~ 1 -200 0 100 R 50 50 1 1 P
+X ~ 2 0 -200 100 U 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
 # Connector_TMS-105-02-L-S-RA
 #
 DEF Connector_TMS-105-02-L-S-RA J 0 20 Y Y 1 F N
@@ -680,30 +708,6 @@ F9 "init" 500 25 50 H I C CNN "LastRevisionNote"
 F10 "-" 500 100 50 H I C CNN "PackageIndex"
 $FPLIST
  SC?Passive:R?0402?1005Metric*
-$ENDFPLIST
-DRAW
-S -40 -100 40 100 0 1 10 N
-X ~ 1 0 150 50 D 50 50 1 1 P
-X ~ 2 0 -150 50 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Passive_ERJ3EKF1000V
-#
-DEF Passive_ERJ3EKF1000V R 0 0 N Y 1 F N
-F0 "R" 0 0 50 V V C CNN
-F1 "Passive_ERJ3EKF1000V" 100 0 50 V I C CNN
-F2 "SC_Passive:R_0603_1608Metric" -300 0 50 V I C CNN
-F3 "" 450 100 50 H I C CNN
-F4 "100R 0603" -100 0 50 V V C CNN "DValue"
-F5 "RES_000049" 25 425 50 H I C CNN "#rice"
-F6 "2021-06-07" 525 -175 50 H I C CNN "Published"
-F7 "Ondrej Ruzicka" 525 -75 50 H I C CNN "Publisher"
-F8 "2021-06-07" 525 -275 50 H I C CNN "LastRevisionDate"
-F9 "init" 500 25 50 H I C CNN "LastRevisionNote"
-F10 "-" 500 100 50 H I C CNN "PackageIndex"
-$FPLIST
- SC?Passive:R?0603?1608Metric*
 $ENDFPLIST
 DRAW
 S -40 -100 40 100 0 1 10 N

@@ -1378,11 +1378,11 @@ X
 Text Notes 8800 4160 2    79   ~ 0
 NA
 Wire Notes Line width 10 rgb(255, 0, 0)
-	10630 5210 5150 5210
+	11010 5200 5150 5210
 Wire Notes Line width 10 rgb(255, 0, 0)
 	5150 5210 5150 3980
 Wire Notes Line width 10 rgb(255, 0, 0)
-	5150 3980 10630 3980
+	5150 3990 11010 3980
 Connection ~ 5450 4650
 Wire Wire Line
 	5450 4650 6050 4650
@@ -1393,7 +1393,7 @@ Wire Wire Line
 Text Notes 10140 3950 0    79   ~ 0
 50 Ohm
 Wire Notes Line width 10 rgb(255, 0, 0)
-	10630 3980 10630 5210
+	11010 3980 11010 5210
 $Comp
 L Net:PWR_FLAG #FLG0101
 U 1 1 60E3BC0F
@@ -1451,4 +1451,38 @@ F 3 "~" H 5600 3100 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5600 3100 5600 3150
+$Comp
+L Connector:RF2-145A-T-17-50-G-HDW J3
+U 1 1 60F36B5D
+P 10750 4650
+F 0 "J3" H 10770 4530 50  0000 L CNN
+F 1 "RF2-145A-T-17-50-G-HDW" V 11150 4640 50  0001 C CNN
+F 2 "SC_Connector:SMA_RF2-145A-T-17-50-G-HDW_EdgeMount" V 10170 4640 50  0001 C CNN
+F 3 "https://app.adam-tech.com/products/download/data_sheet/219110/rf2-145a-t-17-50-g-hdw-data-sheet.pdf" H 11200 4750 50  0001 C CNN
+F 4 "SMA Edge" H 10570 4790 50  0000 L CNN "DValue"
+F 5 "CON_000512" H 10750 4950 50  0001 C CNN "#rice"
+F 6 "2021-06-07" H 11490 4490 50  0001 C CNN "Published"
+F 7 "Ondrej Ruzicka" H 11490 4580 50  0001 C CNN "Publisher"
+F 8 "2021-06-07" H 11490 4390 50  0001 C CNN "LastRevisionDate"
+F 9 "init" H 11500 4670 50  0001 C CNN "LastRevisionNote"
+F 10 "-" H 11500 4750 50  0001 C CNN "PackageIndex"
+	1    10750 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Net:GND #PWR01
+U 1 1 60F5B725
+P 10750 4900
+F 0 "#PWR01" H 10750 4650 50  0001 C CNN
+F 1 "GND" H 10755 4777 50  0000 C CNN
+F 2 "" H 10750 4900 50  0001 C CNN
+F 3 "" H 10750 4900 50  0001 C CNN
+	1    10750 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10750 4850 10750 4900
+Wire Wire Line
+	10550 4650 10300 4650
+Connection ~ 10300 4650
 $EndSCHEMATC
