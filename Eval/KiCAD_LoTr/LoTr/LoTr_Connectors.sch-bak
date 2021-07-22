@@ -418,86 +418,6 @@ $EndComp
 Wire Wire Line
 	5200 4950 5300 4950
 Connection ~ 5300 4950
-$Comp
-L Passive:ERJ3EKF1000V R8
-U 1 1 60DDBBE4
-P 4750 4050
-F 0 "R8" V 4700 3825 50  0000 C CNN
-F 1 "ERJ3EKF1000V" V 4850 4050 50  0001 C CNN
-F 2 "SC_Passive:R_0603_1608Metric" V 4450 4050 50  0001 C CNN
-F 3 "https://cz.mouser.com/datasheet/2/315/AOA0000C304-1149620.pdf" H 5200 4150 50  0001 C CNN
-F 4 "100R 0603" V 4800 4375 50  0000 C CNN "DValue"
-F 5 "RES_000049" H 4775 4475 50  0001 C CNN "#rice"
-F 6 "2021-06-07" H 5275 3875 50  0001 C CNN "Published"
-F 7 "Ondrej Ruzicka" H 5275 3975 50  0001 C CNN "Publisher"
-F 8 "2021-06-07" H 5275 3775 50  0001 C CNN "LastRevisionDate"
-F 9 "init" H 5250 4075 50  0001 C CNN "LastRevisionNote"
-F 10 "-" H 5250 4150 50  0001 C CNN "PackageIndex"
-	1    4750 4050
-	0    1    1    0   
-$EndComp
-$Comp
-L Passive:ERJ3EKF1000V R9
-U 1 1 60DE2402
-P 4750 4150
-F 0 "R9" V 4700 3925 50  0000 C CNN
-F 1 "ERJ3EKF1000V" V 4850 4150 50  0001 C CNN
-F 2 "SC_Passive:R_0603_1608Metric" V 4450 4150 50  0001 C CNN
-F 3 "https://cz.mouser.com/datasheet/2/315/AOA0000C304-1149620.pdf" H 5200 4250 50  0001 C CNN
-F 4 "100R 0603" V 4800 4475 50  0000 C CNN "DValue"
-F 5 "RES_000049" H 4775 4575 50  0001 C CNN "#rice"
-F 6 "2021-06-07" H 5275 3975 50  0001 C CNN "Published"
-F 7 "Ondrej Ruzicka" H 5275 4075 50  0001 C CNN "Publisher"
-F 8 "2021-06-07" H 5275 3875 50  0001 C CNN "LastRevisionDate"
-F 9 "init" H 5250 4175 50  0001 C CNN "LastRevisionNote"
-F 10 "-" H 5250 4250 50  0001 C CNN "PackageIndex"
-	1    4750 4150
-	0    1    1    0   
-$EndComp
-$Comp
-L Passive:ERJ3EKF1000V R10
-U 1 1 60DE4EDA
-P 4750 4250
-F 0 "R10" V 4700 4050 50  0000 C CNN
-F 1 "ERJ3EKF1000V" V 4850 4250 50  0001 C CNN
-F 2 "SC_Passive:R_0603_1608Metric" V 4450 4250 50  0001 C CNN
-F 3 "https://cz.mouser.com/datasheet/2/315/AOA0000C304-1149620.pdf" H 5200 4350 50  0001 C CNN
-F 4 "100R 0603" V 4800 4575 50  0000 C CNN "DValue"
-F 5 "RES_000049" H 4775 4675 50  0001 C CNN "#rice"
-F 6 "2021-06-07" H 5275 4075 50  0001 C CNN "Published"
-F 7 "Ondrej Ruzicka" H 5275 4175 50  0001 C CNN "Publisher"
-F 8 "2021-06-07" H 5275 3975 50  0001 C CNN "LastRevisionDate"
-F 9 "init" H 5250 4275 50  0001 C CNN "LastRevisionNote"
-F 10 "-" H 5250 4350 50  0001 C CNN "PackageIndex"
-	1    4750 4250
-	0    1    1    0   
-$EndComp
-$Comp
-L Passive:ERJ3EKF1000V R11
-U 1 1 60DE79DB
-P 4750 4350
-F 0 "R11" V 4700 4150 50  0000 C CNN
-F 1 "ERJ3EKF1000V" V 4850 4350 50  0001 C CNN
-F 2 "SC_Passive:R_0603_1608Metric" V 4450 4350 50  0001 C CNN
-F 3 "https://cz.mouser.com/datasheet/2/315/AOA0000C304-1149620.pdf" H 5200 4450 50  0001 C CNN
-F 4 "100R 0603" V 4800 4675 50  0000 C CNN "DValue"
-F 5 "RES_000049" H 4775 4775 50  0001 C CNN "#rice"
-F 6 "2021-06-07" H 5275 4175 50  0001 C CNN "Published"
-F 7 "Ondrej Ruzicka" H 5275 4275 50  0001 C CNN "Publisher"
-F 8 "2021-06-07" H 5275 4075 50  0001 C CNN "LastRevisionDate"
-F 9 "init" H 5250 4375 50  0001 C CNN "LastRevisionNote"
-F 10 "-" H 5250 4450 50  0001 C CNN "PackageIndex"
-	1    4750 4350
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	5400 4050 4900 4050
-Wire Wire Line
-	4900 4150 5400 4150
-Wire Wire Line
-	5400 4250 4900 4250
-Wire Wire Line
-	4900 4350 5400 4350
 Text HLabel 3750 4150 0    50   BiDi ~ 0
 IO4_Socket
 Text HLabel 3750 4050 0    50   BiDi ~ 0
@@ -507,11 +427,39 @@ RST_Socket
 Text HLabel 3750 4250 0    50   BiDi ~ 0
 AN_Socket
 Wire Wire Line
-	3750 4050 4600 4050
+	3750 4350 4550 4350
 Wire Wire Line
-	3750 4150 4600 4150
+	3750 4250 4550 4250
 Wire Wire Line
-	3750 4250 4600 4250
+	3750 4150 4550 4150
 Wire Wire Line
-	3750 4350 4600 4350
+	3750 4050 4550 4050
+$Comp
+L Passive:MCRE000213 R?
+U 1 1 60F5513C
+P 4750 4150
+AR Path="/60F5513C" Ref="R?"  Part="1" 
+AR Path="/60C5C960/60F5513C" Ref="R8"  Part="1" 
+F 0 "R8" V 4900 4260 50  0000 L CNN
+F 1 "MCRE000213" V 4350 4150 50  0001 C CNN
+F 2 "SC_Passive:R_Array_Convex_4x0402" V 4250 4150 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2861607.pdf" H 5200 4250 50  0001 C CNN
+F 4 "100R 0804" V 4800 3625 50  0000 L CNN "DValue"
+F 5 "K_RES_000000" H 4680 4630 50  0001 C CNN "#rice"
+F 6 "2021-06-03" H 5275 3975 50  0001 C CNN "Published"
+F 7 "Ondrej Ruzicka" H 5275 4075 50  0001 C CNN "Publisher"
+F 8 "2021-06-03" H 5275 3875 50  0001 C CNN "LastRevisionDate"
+F 9 "init" H 5250 4175 50  0001 C CNN "LastRevisionNote"
+F 10 "-" H 5250 4250 50  0001 C CNN "PackageIndex"
+	1    4750 4150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5400 4050 4950 4050
+Wire Wire Line
+	4950 4150 5400 4150
+Wire Wire Line
+	5400 4250 4950 4250
+Wire Wire Line
+	4950 4350 5400 4350
 $EndSCHEMATC
