@@ -1,10 +1,10 @@
-74820521561117
+76448332265484
 LoTr
 MS210-10C
 
 
 0
-2
+4
 1
 SC_Connector
 Harwin_P19-0121
@@ -55,6 +55,13 @@ SMA
 0
 5
 2
+SC_Connector
+SSM-108-S-SV_1x08_P2.54mm_Vertical_SMT
+SSQ-108-03-F-S
+Connector
+0
+8
+8
 SC_Connector
 SSQ-108-03-F-S_1x08_P2.54mm_Leads10mm_Vertical
 SSQ-108-03-F-S

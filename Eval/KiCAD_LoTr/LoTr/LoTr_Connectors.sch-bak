@@ -57,27 +57,27 @@ $EndComp
 $Comp
 L Net:+5V #PWR?
 U 1 1 60C67B03
-P 6800 4850
+P 7600 4850
 AR Path="/60C67B03" Ref="#PWR?"  Part="1" 
 AR Path="/60C5C960/60C67B03" Ref="#PWR0150"  Part="1" 
-F 0 "#PWR0150" H 6800 4700 50  0001 C CNN
-F 1 "+5V" V 6815 4978 50  0000 L CNN
-F 2 "" H 6800 4850 50  0001 C CNN
-F 3 "" H 6800 4850 50  0001 C CNN
-	1    6800 4850
+F 0 "#PWR0150" H 7600 4700 50  0001 C CNN
+F 1 "+5V" V 7615 4978 50  0000 L CNN
+F 2 "" H 7600 4850 50  0001 C CNN
+F 3 "" H 7600 4850 50  0001 C CNN
+	1    7600 4850
 	0    1    1    0   
 $EndComp
 $Comp
 L Net:GND #PWR?
 U 1 1 60C67B09
-P 6700 5050
+P 7500 5050
 AR Path="/60C67B09" Ref="#PWR?"  Part="1" 
 AR Path="/60C5C960/60C67B09" Ref="#PWR0151"  Part="1" 
-F 0 "#PWR0151" H 6700 4800 50  0001 C CNN
-F 1 "GND" H 6705 4927 50  0000 C CNN
-F 2 "" H 6700 5050 50  0001 C CNN
-F 3 "" H 6700 5050 50  0001 C CNN
-	1    6700 5050
+F 0 "#PWR0151" H 7500 4800 50  0001 C CNN
+F 1 "GND" H 7505 4927 50  0000 C CNN
+F 2 "" H 7500 5050 50  0001 C CNN
+F 3 "" H 7500 5050 50  0001 C CNN
+	1    7500 5050
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -113,75 +113,59 @@ Wire Wire Line
 Wire Wire Line
 	5200 4850 5400 4850
 Wire Wire Line
-	6600 4950 6700 4950
-Wire Wire Line
-	6700 4950 6700 5050
-Wire Wire Line
-	6600 4850 6750 4850
+	7500 4950 7500 5050
 $Comp
 L Passive:MCRE000213 R?
 U 1 1 60C67B28
-P 7250 4550
+P 7900 4550
 AR Path="/60C67B28" Ref="R?"  Part="1" 
 AR Path="/60C5C960/60C67B28" Ref="R12"  Part="1" 
-F 0 "R12" V 7550 4550 50  0000 L CNN
-F 1 "MCRE000213" V 6850 4550 50  0001 C CNN
-F 2 "SC_Passive:R_Array_Convex_4x0402" V 6750 4550 50  0001 C CNN
-F 3 "http://www.farnell.com/datasheets/2861607.pdf" H 7700 4650 50  0001 C CNN
-F 4 "100R 0804" V 7450 4350 50  0000 L CNN "DValue"
-F 5 "K_RES_000000" H 7180 5030 50  0001 C CNN "#rice"
-F 6 "2021-06-03" H 7775 4375 50  0001 C CNN "Published"
-F 7 "Ondrej Ruzicka" H 7775 4475 50  0001 C CNN "Publisher"
-F 8 "2021-06-03" H 7775 4275 50  0001 C CNN "LastRevisionDate"
-F 9 "init" H 7750 4575 50  0001 C CNN "LastRevisionNote"
-F 10 "-" H 7750 4650 50  0001 C CNN "PackageIndex"
-	1    7250 4550
+F 0 "R12" V 8200 4550 50  0000 L CNN
+F 1 "MCRE000213" V 7500 4550 50  0001 C CNN
+F 2 "SC_Passive:R_Array_Convex_4x0402" V 7400 4550 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2861607.pdf" H 8350 4650 50  0001 C CNN
+F 4 "100R 0804" V 8100 4350 50  0000 L CNN "DValue"
+F 5 "K_RES_000000" H 7830 5030 50  0001 C CNN "#rice"
+F 6 "2021-06-03" H 8425 4375 50  0001 C CNN "Published"
+F 7 "Ondrej Ruzicka" H 8425 4475 50  0001 C CNN "Publisher"
+F 8 "2021-06-03" H 8425 4275 50  0001 C CNN "LastRevisionDate"
+F 9 "init" H 8400 4575 50  0001 C CNN "LastRevisionNote"
+F 10 "-" H 8400 4650 50  0001 C CNN "PackageIndex"
+	1    7900 4550
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Passive:MCRE000213 R?
 U 1 1 60C67B35
-P 7250 3900
+P 7900 3900
 AR Path="/60C67B35" Ref="R?"  Part="1" 
 AR Path="/60C5C960/60C67B35" Ref="R4"  Part="1" 
-F 0 "R4" V 7550 3900 50  0000 L CNN
-F 1 "MCRE000213" V 6850 3900 50  0001 C CNN
-F 2 "SC_Passive:R_Array_Convex_4x0402" V 6750 3900 50  0001 C CNN
-F 3 "http://www.farnell.com/datasheets/2861607.pdf" H 7700 4000 50  0001 C CNN
-F 4 "100R 0804" V 7450 3700 50  0000 L CNN "DValue"
-F 5 "K_RES_000000" H 7180 4380 50  0001 C CNN "#rice"
-F 6 "2021-06-03" H 7775 3725 50  0001 C CNN "Published"
-F 7 "Ondrej Ruzicka" H 7775 3825 50  0001 C CNN "Publisher"
-F 8 "2021-06-03" H 7775 3625 50  0001 C CNN "LastRevisionDate"
-F 9 "init" H 7750 3925 50  0001 C CNN "LastRevisionNote"
-F 10 "-" H 7750 4000 50  0001 C CNN "PackageIndex"
-	1    7250 3900
+F 0 "R4" V 8200 3900 50  0000 L CNN
+F 1 "MCRE000213" V 7500 3900 50  0001 C CNN
+F 2 "SC_Passive:R_Array_Convex_4x0402" V 7400 3900 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2861607.pdf" H 8350 4000 50  0001 C CNN
+F 4 "100R 0804" V 8100 3700 50  0000 L CNN "DValue"
+F 5 "K_RES_000000" H 7830 4380 50  0001 C CNN "#rice"
+F 6 "2021-06-03" H 8425 3725 50  0001 C CNN "Published"
+F 7 "Ondrej Ruzicka" H 8425 3825 50  0001 C CNN "Publisher"
+F 8 "2021-06-03" H 8425 3625 50  0001 C CNN "LastRevisionDate"
+F 9 "init" H 8400 3925 50  0001 C CNN "LastRevisionNote"
+F 10 "-" H 8400 4000 50  0001 C CNN "PackageIndex"
+	1    7900 3900
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	6600 4750 7050 4750
+	7550 4350 7550 3900
 Wire Wire Line
-	7050 4650 6600 4650
+	7550 3900 7700 3900
 Wire Wire Line
-	6600 4550 7050 4550
+	7450 4250 7450 3800
 Wire Wire Line
-	6600 4450 7050 4450
-Wire Wire Line
-	6600 4350 6900 4350
-Wire Wire Line
-	6900 4350 6900 3900
-Wire Wire Line
-	6900 3900 7050 3900
-Wire Wire Line
-	6600 4250 6800 4250
-Wire Wire Line
-	6800 4250 6800 3800
-Wire Wire Line
-	6800 3800 7050 3800
-NoConn ~ 7050 4000
-NoConn ~ 7050 4100
-NoConn ~ 7450 4000
-NoConn ~ 7450 4100
+	7450 3800 7700 3800
+NoConn ~ 7700 4000
+NoConn ~ 7700 4100
+NoConn ~ 8100 4000
+NoConn ~ 8100 4100
 $Comp
 L Connector:TMS-105-02-L-S-RA J?
 U 1 1 60C67B5B
@@ -322,30 +306,30 @@ Wire Wire Line
 	4300 4650 5400 4650
 Wire Wire Line
 	5400 4550 4300 4550
-Text HLabel 7600 3800 2    50   BiDi ~ 0
+Text HLabel 8250 3800 2    50   BiDi ~ 0
 PWM_Socket
-Text HLabel 7600 3900 2    50   BiDi ~ 0
+Text HLabel 8250 3900 2    50   BiDi ~ 0
 INT_Socket
 Wire Wire Line
-	7600 3800 7450 3800
+	8250 3800 8100 3800
 Wire Wire Line
-	7450 3900 7600 3900
-Text HLabel 7600 4450 2    50   BiDi ~ 0
+	8100 3900 8250 3900
+Text HLabel 8250 4450 2    50   BiDi ~ 0
 RX_Socket
-Text HLabel 7600 4550 2    50   BiDi ~ 0
+Text HLabel 8250 4550 2    50   BiDi ~ 0
 TX_Socket
 Wire Wire Line
-	7600 4450 7450 4450
+	8250 4450 8100 4450
 Wire Wire Line
-	7450 4550 7600 4550
-Text HLabel 7600 4650 2    50   BiDi ~ 0
+	8100 4550 8250 4550
+Text HLabel 8250 4650 2    50   BiDi ~ 0
 SCL_Socket
-Text HLabel 7600 4750 2    50   BiDi ~ 0
+Text HLabel 8250 4750 2    50   BiDi ~ 0
 SDA_Socket
 Wire Wire Line
-	7600 4650 7450 4650
+	8250 4650 8100 4650
 Wire Wire Line
-	7450 4750 7600 4750
+	8100 4750 8250 4750
 Text HLabel 3750 3950 0    50   BiDi ~ 0
 IO2_Socket
 Text HLabel 3750 3850 0    50   BiDi ~ 0
@@ -385,23 +369,22 @@ Wire Wire Line
 $Comp
 L Net:PWR_FLAG #FLG?
 U 1 1 60E8C45B
-P 6850 4950
+P 7650 4950
 AR Path="/60C0A78B/60E8C45B" Ref="#FLG?"  Part="1" 
 AR Path="/60C5C960/60E8C45B" Ref="#FLG0106"  Part="1" 
-F 0 "#FLG0106" H 6850 5025 50  0001 C CNN
-F 1 "PWR_FLAG" V 6850 5250 50  0000 C CNN
-F 2 "" H 6850 4950 50  0001 C CNN
-F 3 "~" H 6850 4950 50  0001 C CNN
-	1    6850 4950
+F 0 "#FLG0106" H 7650 5025 50  0001 C CNN
+F 1 "PWR_FLAG" V 7650 5250 50  0000 C CNN
+F 2 "" H 7650 4950 50  0001 C CNN
+F 3 "~" H 7650 4950 50  0001 C CNN
+	1    7650 4950
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	6750 4950 6750 4850
+	7550 4950 7550 4850
 Wire Wire Line
-	6750 4950 6850 4950
-Connection ~ 6750 4850
+	7550 4950 7650 4950
 Wire Wire Line
-	6750 4850 6800 4850
+	7550 4850 7600 4850
 $Comp
 L Net:PWR_FLAG #FLG?
 U 1 1 60E8F5E3
@@ -462,4 +445,63 @@ Wire Wire Line
 	5400 4250 4950 4250
 Wire Wire Line
 	4950 4350 5400 4350
+$Comp
+L Connector:SSM-108-S-SV J4
+U 1 1 61066FC3
+P 6900 4550
+F 0 "J4" H 6900 5000 50  0000 C CNN
+F 1 "SSM-108-S-SV" V 7000 4550 50  0001 C CNN
+F 2 "SC_Connector:SSM-108-S-SV_1x08_P2.54mm_Vertical_SMT" V 6300 4550 50  0001 C CNN
+F 3 "https://suddendocs.samtec.com/catalog_english/ssm_sm.pdf" H 7350 4650 50  0001 C CNN
+F 4 "1x8 socket, 8mm leads" H 6800 4050 50  0000 C CNN "DValue"
+F 5 "K_CON_000003" H 6925 4975 50  0001 C CNN "#rice"
+F 6 "2021-07-21" H 7425 4375 50  0001 C CNN "Published"
+F 7 "Jan Belohoubek" H 7425 4475 50  0001 C CNN "Publisher"
+F 8 "2021-07-21" H 7425 4275 50  0001 C CNN "LastRevisionDate"
+F 9 "init" H 7400 4575 50  0001 C CNN "LastRevisionNote"
+F 10 "-" H 7400 4650 50  0001 C CNN "PackageIndex"
+	1    6900 4550
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6600 4250 7100 4250
+Wire Wire Line
+	7100 4250 7450 4250
+Connection ~ 7100 4250
+Wire Wire Line
+	7100 4350 7550 4350
+Wire Wire Line
+	7100 4350 6600 4350
+Connection ~ 7100 4350
+Wire Wire Line
+	6600 4450 7100 4450
+Wire Wire Line
+	7100 4450 7700 4450
+Connection ~ 7100 4450
+Wire Wire Line
+	7100 4550 7700 4550
+Wire Wire Line
+	7100 4650 7700 4650
+Wire Wire Line
+	7100 4750 7700 4750
+Wire Wire Line
+	7100 4950 7500 4950
+Wire Wire Line
+	6600 4950 7100 4950
+Connection ~ 7100 4950
+Wire Wire Line
+	6600 4850 7100 4850
+Connection ~ 7100 4850
+Wire Wire Line
+	6600 4750 7100 4750
+Connection ~ 7100 4750
+Wire Wire Line
+	6600 4650 7100 4650
+Connection ~ 7100 4650
+Wire Wire Line
+	6600 4550 7100 4550
+Connection ~ 7100 4550
+Wire Wire Line
+	7100 4850 7550 4850
+Connection ~ 7550 4850
 $EndSCHEMATC
