@@ -448,20 +448,20 @@ Wire Wire Line
 $Comp
 L Connector:SSM-108-S-SV J4
 U 1 1 61066FC3
-P 6900 4550
-F 0 "J4" H 6900 5000 50  0000 C CNN
-F 1 "SSM-108-S-SV" V 7000 4550 50  0001 C CNN
-F 2 "SC_Connector:SSM-108-S-SV_1x08_P2.54mm_Vertical_SMT" V 6300 4550 50  0001 C CNN
-F 3 "https://suddendocs.samtec.com/catalog_english/ssm_sm.pdf" H 7350 4650 50  0001 C CNN
-F 4 "1x8 socket, 8mm leads" H 6800 4050 50  0000 C CNN "DValue"
-F 5 "K_CON_000003" H 6925 4975 50  0001 C CNN "#rice"
-F 6 "2021-07-21" H 7425 4375 50  0001 C CNN "Published"
-F 7 "Jan Belohoubek" H 7425 4475 50  0001 C CNN "Publisher"
-F 8 "2021-07-21" H 7425 4275 50  0001 C CNN "LastRevisionDate"
-F 9 "init" H 7400 4575 50  0001 C CNN "LastRevisionNote"
-F 10 "-" H 7400 4650 50  0001 C CNN "PackageIndex"
-	1    6900 4550
-	-1   0    0    -1  
+P 6900 4650
+F 0 "J4" H 6900 4150 50  0000 C CNN
+F 1 "SSM-108-S-SV" V 7000 4650 50  0001 C CNN
+F 2 "SC_Connector:SSM-108-S-SV_1x08_P2.54mm_Vertical_SMT" V 6300 4650 50  0001 C CNN
+F 3 "https://suddendocs.samtec.com/catalog_english/ssm_sm.pdf" H 7350 4750 50  0001 C CNN
+F 4 "1x8 socket, 8mm leads" H 6800 5050 50  0000 C CNN "DValue"
+F 5 "K_CON_000003" H 6925 5075 50  0001 C CNN "#rice"
+F 6 "2021-07-21" H 7425 4475 50  0001 C CNN "Published"
+F 7 "Jan Belohoubek" H 7425 4575 50  0001 C CNN "Publisher"
+F 8 "2021-07-21" H 7425 4375 50  0001 C CNN "LastRevisionDate"
+F 9 "init" H 7400 4675 50  0001 C CNN "LastRevisionNote"
+F 10 "-" H 7400 4750 50  0001 C CNN "PackageIndex"
+	1    6900 4650
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	6600 4250 7100 4250
