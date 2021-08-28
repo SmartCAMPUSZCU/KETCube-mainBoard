@@ -1,4 +1,4 @@
-76448332265484
+79375815219318
 LoTr
 MS210-10C
 
@@ -17,6 +17,13 @@ SC_Connector
 KETCube_32x32mm_P2.54mm_VERTICAL_THT
 KERTCube THT Socket
 KETCube
+0
+20
+20
+SC_Connector
+KETCube_microBUS_32x32mm_P2.54mm_VERTICAL_SMT_THT
+KERTCube THT Socket, microBUS socket included
+KETCube microBUS
 0
 20
 20
@@ -202,6 +209,13 @@ fiducial
 0
 1
 0
+SC_Mechanic
+MS210-10F
+MS210-10F Masach seamless EMI shield
+EMI shield
+0
+4
+1
 SC_Mechanic
 SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm
 SMD Solder Jumper, 1x1.5mm Triangular Pads, 0.3mm gap, open
