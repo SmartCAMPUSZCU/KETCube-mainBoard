@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 4
 Title "LoTr"
-Date "2021-06-07"
+Date "2021-09-12"
 Rev "A"
 Comp "KET UWB in Pilsen"
 Comment1 ""
@@ -151,4 +151,37 @@ Wire Wire Line
 	7700 3300 6700 3300
 Wire Wire Line
 	7700 3600 6700 3600
+$Comp
+L Mechanic:MS210-10F EMI1
+U 1 1 613DB692
+P 2650 5725
+F 0 "EMI1" H 2700 5475 50  0000 L CNN
+F 1 "MS210-10F" H 2710 6045 50  0001 C CNN
+F 2 "SC_Mechanic:MS210-10F-2SH_21x12x5mm" V 2300 5735 50  0001 C CNN
+F 3 "https://cz.mouser.com/datasheet/2/856/ms210-10_8-1385113.pdf" H 2960 5900 50  0001 C CNN
+F 4 "Seamless shield 21x12x5mm" H 2100 6000 50  0000 L CNN "DValue"
+F 5 "K_EMI_000000" H 2710 6125 50  0001 C CNN "#rice"
+F 6 "2021-08-07" H 3240 5645 50  0001 C CNN "Published"
+F 7 "Ondrej Ruzicka" H 3250 5735 50  0001 C CNN "Publisher"
+F 8 "2021-08-07" H 3240 5535 50  0001 C CNN "LastRevisionDate"
+F 9 "init" H 3240 5835 50  0001 C CNN "LastRevisionNote"
+F 10 "-" H 3240 5915 50  0001 C CNN "PackageIndex"
+	1    2650 5725
+	1    0    0    -1  
+$EndComp
+$Comp
+L Net:GND #PWR014
+U 1 1 613E4145
+P 2650 6050
+AR Path="/613E4145" Ref="#PWR014"  Part="1" 
+AR Path="/60C0A78B/613E4145" Ref="#PWR?"  Part="1" 
+F 0 "#PWR014" H 2650 5800 50  0001 C CNN
+F 1 "GND" H 2655 5927 50  0000 C CNN
+F 2 "" H 2650 6050 50  0001 C CNN
+F 3 "" H 2650 6050 50  0001 C CNN
+	1    2650 6050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2650 6025 2650 6050
 $EndSCHEMATC
