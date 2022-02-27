@@ -422,7 +422,7 @@ F 3 "" H 5550 2300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Net:+3V3 #PWR?
+L LoTr-rescue:+3V3-Net #PWR?
 U 1 1 60C163A7
 P 3700 1850
 AR Path="/60C163A7" Ref="#PWR?"  Part="1" 
@@ -771,7 +771,7 @@ F 10 "-" H 2525 6500 50  0001 C CNN "PackageIndex"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Net:+3V3 #PWR0145
+L LoTr-rescue:+3V3-Net #PWR0145
 U 1 1 60DDAD8B
 P 1125 6400
 AR Path="/60DDAD8B" Ref="#PWR0145"  Part="1" 
@@ -846,7 +846,7 @@ F 10 "-" H 4875 6340 50  0001 C CNN "PackageIndex"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Net:+3V3 #PWR0147
+L LoTr-rescue:+3V3-Net #PWR0147
 U 1 1 60DF6507
 P 4425 6025
 AR Path="/60DF6507" Ref="#PWR0147"  Part="1" 
@@ -1164,7 +1164,7 @@ Wire Wire Line
 NoConn ~ 10500 4000
 NoConn ~ 9500 4200
 $Comp
-L Net:+3V3 #PWR?
+L LoTr-rescue:+3V3-Net #PWR?
 U 1 1 6103DCB1
 P 9300 3450
 AR Path="/6103DCB1" Ref="#PWR?"  Part="1" 
@@ -1179,7 +1179,7 @@ $EndComp
 Wire Wire Line
 	9300 3450 9300 3500
 $Comp
-L Net:+3V3 #PWR?
+L LoTr-rescue:+3V3-Net #PWR?
 U 1 1 61042081
 P 8800 3450
 AR Path="/61042081" Ref="#PWR?"  Part="1" 
@@ -1216,7 +1216,7 @@ PB8
 Text Label 8400 4100 0    50   ~ 0
 PB9
 $Comp
-L Net:+3V3 #PWR?
+L LoTr-rescue:+3V3-Net #PWR?
 U 1 1 6109B4E7
 P 10950 3850
 AR Path="/6109B4E7" Ref="#PWR?"  Part="1" 
@@ -1349,7 +1349,7 @@ $EndComp
 Wire Wire Line
 	1700 1925 1700 1675
 $Comp
-L Net:+3V3 #PWR013
+L LoTr-rescue:+3V3-Net #PWR013
 U 1 1 6122D0C2
 P 2775 1450
 AR Path="/6122D0C2" Ref="#PWR013"  Part="1" 

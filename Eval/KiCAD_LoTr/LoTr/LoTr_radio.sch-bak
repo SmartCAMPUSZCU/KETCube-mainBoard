@@ -14,26 +14,6 @@ Comment3 "Checked by:"
 Comment4 "Author: Ondřej Růžička"
 $EndDescr
 $Comp
-L ICs_Digital:SX1276IMLTRT U?
-U 1 1 60CA0182
-P 2850 3400
-AR Path="/60CA0182" Ref="U?"  Part="1" 
-AR Path="/60C0A78B/60CA0182" Ref="U1"  Part="1" 
-F 0 "U1" H 2150 4300 50  0000 C CNN
-F 1 "SX1276IMLTRT" H 2850 4600 50  0001 C CNN
-F 2 "SC_ICs_Digital:QFN-28-1EP_6x6mm_P0.65mm" V 110 3750 50  0001 C CNN
-F 3 "https://cz.mouser.com/datasheet/2/761/DS_SX1276-7-8-9_W_APP_V5-1360265.pdf" H 3100 3510 50  0001 C CNN
-F 4 "SX1276" H 2250 4200 50  0000 C CNN "DValue"
-F 5 "K_ICS_000000" H 2850 4690 50  0001 C CNN "#rice"
-F 6 "2021-06-02" H 3860 2780 50  0001 C CNN "Published"
-F 7 "Ondrej Ruzicka" H 3870 2870 50  0001 C CNN "Publisher"
-F 8 "2021-06-02" H 3860 2700 50  0001 C CNN "LastRevisionDate"
-F 9 "init" H 3860 2970 50  0001 C CNN "LastRevisionNote"
-F 10 "-" H 3860 3050 50  0001 C CNN "PackageIndex"
-	1    2850 3400
-	1    0    0    -1  
-$EndComp
-$Comp
 L Passive:C1005X7R1E104K C?
 U 1 1 60CA019B
 P 950 3900
@@ -1485,4 +1465,22 @@ Wire Wire Line
 Wire Wire Line
 	10550 4650 10300 4650
 Connection ~ 10300 4650
+$Comp
+L ICs_Digital:SX1276IMLTRT U1
+U 1 1 613E140D
+P 2850 3400
+F 0 "U1" H 2225 4150 50  0000 C CNN
+F 1 "SX1276IMLTRT" H 2850 4600 50  0001 C CNN
+F 2 "SC_ICs_Digital:QFN-28-1EP_6x6mm_P0.65mm_EP4.8x4.8mm" V 110 3750 50  0001 C CNN
+F 3 "https://cz.mouser.com/datasheet/2/761/DS_SX1276-7-8-9_W_APP_V5-1360265.pdf" H 3100 3510 50  0001 C CNN
+F 4 "SX1276" H 2850 4390 50  0000 C CNN "DValue"
+F 5 "K_ICS_000000" H 2850 4690 50  0001 C CNN "#rice"
+F 6 "2021-06-02" H 3860 2780 50  0001 C CNN "Published"
+F 7 "Ondrej Ruzicka" H 3870 2870 50  0001 C CNN "Publisher"
+F 8 "2021-06-02" H 3860 2700 50  0001 C CNN "LastRevisionDate"
+F 9 "init" H 3860 2970 50  0001 C CNN "LastRevisionNote"
+F 10 "-" H 3860 3050 50  0001 C CNN "PackageIndex"
+	1    2850 3400
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

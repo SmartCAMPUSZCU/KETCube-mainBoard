@@ -94,7 +94,7 @@ F 3 "" H 5300 5050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Net:+3V3 #PWR?
+L LoTr-rescue:+3V3-Net #PWR?
 U 1 1 60C67B15
 P 5200 4850
 AR Path="/60C67B15" Ref="#PWR?"  Part="1" 
@@ -187,7 +187,7 @@ F 10 "-" H 6950 2900 50  0001 C CNN "PackageIndex"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Net:+3V3 #PWR?
+L LoTr-rescue:+3V3-Net #PWR?
 U 1 1 60C67B61
 P 5600 2500
 AR Path="/60C67B61" Ref="#PWR?"  Part="1" 
@@ -251,7 +251,7 @@ F 10 "-" H 5700 3600 50  0001 C CNN "PackageIndex"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Net:+3V3 #PWR?
+L LoTr-rescue:+3V3-Net #PWR?
 U 1 1 60C67B85
 P 5200 3300
 AR Path="/60C67B85" Ref="#PWR?"  Part="1" 

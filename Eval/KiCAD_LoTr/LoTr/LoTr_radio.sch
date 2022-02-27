@@ -576,7 +576,7 @@ F 3 "" H 2300 6700 50  0001 C CNN
 $EndComp
 Connection ~ 2300 6750
 $Comp
-L Net:+3V3 #PWR?
+L LoTr-rescue:+3V3-Net #PWR?
 U 1 1 60CA02DF
 P 1600 6700
 AR Path="/60CA02DF" Ref="#PWR?"  Part="1" 
