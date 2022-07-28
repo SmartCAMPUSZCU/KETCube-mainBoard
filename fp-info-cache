@@ -1,0 +1,344 @@
+79458207334318
+LoTr
+MS210-10C
+
+
+0
+4
+1
+SC_Connector
+Harwin_P19-0121
+Harwin Spring-Loaded Test Probe
+Test Probe
+0
+1
+1
+SC_Connector
+KETCube_32x32mm_P2.54mm_VERTICAL_THT
+KERTCube THT Socket
+KETCube
+0
+20
+20
+SC_Connector
+KETCube_microBUS_32x32mm_P2.54mm_VERTICAL_SMT_THT
+KERTCube THT Socket, microBUS socket included
+KETCube microBUS
+0
+20
+20
+SC_Connector
+KETCube_microBUS_32x32mm_P2.54mm_VERTICAL_THT
+KERTCube THT Socket, microBUS socket included
+KETCube microBUS
+0
+28
+20
+SC_Connector
+Mill-Max_0908-8-15-20-75-14-11-0
+Mill-Max Spring-Loaded Test Probe, Beryllium Copper 
+Test Probe
+0
+1
+1
+SC_Connector
+PinSocket_1x08_P2.54mm_Vertical
+Through hole straight socket strip, 1x08, 2.54mm pitch, single row (from Kicad 4.0.7), script generated
+Through hole socket strip THT 1x08 2.54mm single row
+0
+8
+8
+SC_Connector
+PinSocket_1x08_P2.54mm_Vertical_Offcentered
+Through hole straight socket strip, 1x08, 2.54mm pitch, single row (from Kicad 4.0.7), script generated
+Through hole socket strip THT 1x08 2.54mm single row
+0
+8
+8
+SC_Connector
+SMA_RF2-145A-T-17-50-G-HDW_EdgeMount
+http://suddendocs.samtec.com/prints/sma-j-p-x-st-em1-mkt.pdf
+SMA
+0
+5
+2
+SC_Connector
+SSM-108-S-SV_1x08_P2.54mm_Vertical_SMT
+SSQ-108-03-F-S
+Connector
+0
+8
+8
+SC_Connector
+SSQ-108-03-F-S_1x08_P2.54mm_Leads10mm_Vertical
+SSQ-108-03-F-S
+Connector
+0
+8
+8
+SC_Connector
+SSQ-108-03-F-S_1x08_P2.54mm_Leads10mm_Vertical_Offcentered
+SSQ-108-03-F-S
+Connector
+0
+8
+8
+SC_Connector
+SSQ-112-03-F-S_1x12_P2.54mm_Leads10mm_Vertical
+SSQ-112-03-F-S
+Connector
+0
+12
+12
+SC_Connector
+SSQ-112-03-F-S_1x12_P2.54mm_Leads10mm_Vertical_Offcentered
+SSQ-112-03-F-S
+Connector
+0
+12
+12
+SC_Connector
+TMS-105-02-L-S-RA_1x5_P1.27_Horizontal
+TMS-105-02-L-S
+Connector
+0
+5
+5
+SC_Connector
+TMS-105-02-L-S-RA_1x5_P1.27_Horizontal_Offcentered
+TMS-105-02-L-S
+Connector
+0
+5
+5
+SC_Connector
+TMS-105-02-L-S-RA_1x5_P1.27_Horizontal_Offcentered_TestPads
+TMS-105-02-L-S
+Connector
+0
+10
+5
+SC_Connector
+USB_Micro-B_Hirose_ZX62WD1-B-5PC_Horizontal
+47346-0001_1
+Connector
+0
+11
+11
+SC_Discrete
+D_SOD-123
+SOD-123
+SOD-123
+0
+2
+2
+SC_Discrete
+D_SOD-523
+http://www.diodes.com/datasheets/ap02001.pdf p.144
+SOD523
+0
+2
+2
+SC_Discrete
+LED_0603_1608Metric
+LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+diode
+0
+2
+2
+SC_Discrete
+SOT-23
+SOT-23, Standard
+SOT-23
+0
+3
+3
+SC_ICs_Analog
+SOT-23
+SOT-23, Standard
+SOT-23
+0
+3
+3
+SC_ICs_Analog
+SOT-23-6L
+SOT-23-6L, Standard
+SOT-23-6L
+0
+6
+6
+SC_ICs_Digital
+LQFP-48_7x7mm_P0.5mm
+LQFP, 48 Pin (https://www.analog.com/media/en/technical-documentation/data-sheets/ltc2358-16.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+LQFP QFP
+0
+48
+48
+SC_ICs_Digital
+PWSON-6-1EP_3x3mm_P1mm
+HDC1080 footprint, PWSON-6-1EP_3x3mm_P1mm, 6pin DMB
+HDC1080
+0
+7
+7
+SC_ICs_Digital
+QFN-28-1EP_6x6mm_P0.65mm_EP4.8x4.8mm
+QFN
+Integrated Circuit
+0
+29
+29
+SC_ICs_Digital
+SSOP-20_3.9x8.7mm_P0.635mm
+SSOP-20 FT231XS-R package
+SSOP-20 FT231XS
+0
+20
+20
+SC_Mechanic
+F_0603_1608Metric
+Fuse SMD 0603 (1608Metric)
+fuse
+0
+2
+2
+SC_Mechanic
+Fiducial_0.8mm_Mask1.6mm
+Circular Fiducial, 0.8mm bare copper, 1.6mm soldermask opening (Level B)
+fiducial
+0
+1
+0
+SC_Mechanic
+MS210-10F-2SH_21x12x5mm
+MS210-10F Masach seamless EMI shield
+EMI shield
+0
+4
+2
+SC_Mechanic
+SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm
+SMD Solder Jumper, 1x1.5mm Triangular Pads, 0.3mm gap, open
+solder jumper open
+0
+2
+2
+SC_Mechanic
+SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm
+SMD Solder Jumper, 1x1.5mm Triangular Pads, 0.3mm gap, open
+solder jumper open
+0
+5
+3
+SC_Mechanic
+SolderJumper-4_P2.0mm_Open_TrianglePad1.0x1.5mm
+SMD Solder Jumper, 1x1.5mm Triangular Pads, 0.3mm gap, open
+solder jumper open
+0
+7
+4
+SC_Mechanic
+TestPoint_Pad_1.0x1.0mm
+SMD rectangular pad as test Point, square 1.0mm side length
+test point SMD pad rectangle square
+0
+1
+1
+SC_Mechanic
+TestPoint_Pad_d1,4mm
+THT circular pad as test Point, round 1.4mm diameter, 0,7mm hole
+test point round hole
+0
+1
+1
+SC_Modules
+CMWX1ZZABZ-078_12.5x11.6mm_Module
+CMWX1ZZABZ-078
+Integrated Circuit
+0
+57
+57
+SC_Modules
+Pulse_W3214_10x3.2x5mm
+W3214
+Antenna
+0
+3
+3
+SC_Passive
+C_0402_1005Metric
+Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+capacitor
+0
+2
+2
+SC_Passive
+C_0603_1608Metric
+Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+capacitor
+0
+2
+2
+SC_Passive
+Crystal_SMD_2016-4Pin_2.0x1.6mm
+SMD Crystal SERIES SMD2016/4 http://www.q-crystal.com/upload/5/2015552223166229.pdf, 2.0x1.6mm^2 package
+SMD SMT crystal
+0
+4
+4
+SC_Passive
+Crystal_SMD_Abracon_ABS07-2Pin_3.2x1.5mm
+XTAL_ABS07-32.768KHZ-T
+SMD SMT crystal
+0
+2
+2
+SC_Passive
+L_0402_1005Metric
+Inductor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+inductor
+0
+2
+2
+SC_Passive
+L_0603_1608Metric
+Inductor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+inductor
+0
+2
+2
+SC_Passive
+R_0402_1005Metric
+Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+resistor
+0
+2
+2
+SC_Passive
+R_0603_1608Metric
+Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+resistor
+0
+2
+2
+SC_Passive
+R_0805_2012Metric
+Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
+resistor
+0
+2
+2
+SC_Passive
+R_Array_Convex_4x0402
+Chip Resistor Network, ROHM MNR04 (see mnr_g.pdf)
+resistor array
+0
+8
+8
+SC_Switches
+Panasonic_EVQ-P7J01P
+3.5 mm×2.9 mm Side-operational SMD Light Touch Switches
+switch
+0
+4
+2

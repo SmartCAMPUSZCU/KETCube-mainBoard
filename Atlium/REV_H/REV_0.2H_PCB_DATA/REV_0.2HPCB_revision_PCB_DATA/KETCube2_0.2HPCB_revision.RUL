@@ -1,9 +1,0 @@
-DRC Rules Export File for PCB: C:\Dokumenty\Projekty\IOT\SVN\06_HW\KetCube2\PCB\KETCube_smd_NO_PADS.PcbDoc
-RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0
-RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion_1|Scope=Board|Minimum=1.97
-RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=3.15
-RuleKind=Width|RuleName=Width|Scope=Board|Minimum=7.87
-RuleKind=Clearance|RuleName=Clearance_gener_1|Scope=Board|Minimum=5.91
-RuleKind=Clearance|RuleName=Clearance_ant|Scope=Board|Minimum=7.87
-RuleKind=Clearance|RuleName=Clearance_fiducials|Scope=Board|Minimum=0.00
-RuleKind=Clearance|RuleName=Clearance__solder_jumper|Scope=Board|Minimum=7.48

@@ -1,3 +1,9 @@
+
+**This branch contains the KETCube mainBoard-related evaluation boards related to the mainBoard development**
+
+**This directory may contain unverified or work-in-progress designs!** 
+
+
 # KETCube mainBoard Repository
 
 The KETCube platform consists of multiple parts, for the overall view on the 
