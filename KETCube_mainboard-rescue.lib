@@ -1,0 +1,31 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# EVQ-P7J01P-Switches
+#
+DEF EVQ-P7J01P-Switches SW 0 40 N N 1 F N
+F0 "SW" 50 115 50 H V L CNN
+F1 "EVQ-P7J01P-Switches" 15 210 50 H I C CNN
+F2 "SC_Switches:Panasonic_EVQ-P7J01P" -5 375 50 H I C CNN
+F3 "" 450 100 50 H I C CNN
+F4 "Pushbutton SMD" 45 -85 50 H V C CNN "DValue"
+F5 "SWI_000034" 25 280 50 H I C CNN "#rice"
+F6 "2021-02-15" 25 -460 50 H I C CNN "Published"
+F7 "Ondrej Ruzicka" 25 -360 50 H I C CNN "Publisher"
+F8 "2021-02-15" 25 -560 50 H I C CNN "LastRevisionDate"
+F9 "init" 0 -260 50 H I C CNN "LastRevisionNote"
+F10 "-" 0 -185 50 H I C CNN "PackageIndex"
+$FPLIST
+ SC?Switches:Panasonic?EVQ?P7J01P*
+$ENDFPLIST
+DRAW
+C -80 0 20 0 1 0 N
+C 80 0 20 0 1 0 N
+P 2 0 1 0 0 50 0 120 N
+P 2 0 1 0 100 50 -100 50 N
+X 1 1 -200 0 100 R 50 50 0 1 P
+X 2 2 200 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

@@ -1,0 +1,7 @@
+# Ignore temporary libraries - temporary libraries are local only
+ASSEMBLY/
+BOM/
+MANUFACTURE/
+PREVIEW/
+*.sch-bak
+*.pro-bak

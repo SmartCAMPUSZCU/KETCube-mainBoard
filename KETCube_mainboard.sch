@@ -1,0 +1,1958 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "KETCube_0.2J"
+Date "2022-07-28"
+Rev "@git_hash@"
+Comp "KET UWB in Pilsen"
+Comment1 ""
+Comment2 "Ondřej Růžička, Jan Bělohoubek"
+Comment3 "Jiří Čengery"
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:47346-1001 H7
+U 1 1 602E5F7C
+P 1300 1400
+F 0 "H7" H 1165 2020 50  0000 C CNN
+F 1 "47346-1001" H 1300 780 50  0001 C CNN
+F 2 "SC_Connector:USB_Micro-B_Hirose_ZX62WD1-B-5PC_Horizontal" V 860 1400 50  0001 C CNN
+F 3 "https://cz.mouser.com/datasheet/2/276/0473461001_IO_CONNECTORS-272892.pdf" H 1750 1500 50  0001 C CNN
+F 4 "USB micro B" H 1325 790 50  0000 C CNN "DValue"
+F 5 "2020-11-27" H 2200 1230 50  0001 C CNN "Published"
+F 6 "Ondrej Ruzicka" H 2210 1320 50  0001 C CNN "Publisher"
+F 7 "2021-01-26" H 2200 1120 50  0001 C CNN "LastRevisionDate"
+F 8 "init" H 2200 1420 50  0001 C CNN "LastRevisionNote"
+F 9 "-" H 2200 1500 50  0001 C CNN "PackageIndex"
+F 10 "CON_000491" H 0   0   50  0001 C CNN "StockId"
+	1    1300 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L ICs_Analog:MCP1700T-3302E_TT IC2
+U 1 1 602E89DD
+P 3800 900
+F 0 "IC2" H 3800 1142 50  0000 C CNN
+F 1 "MCP1700T-3302E_TT" H 3800 1110 50  0001 C CNN
+F 2 "SC_ICs_Analog:SOT-23" V 2960 900 50  0001 C CNN
+F 3 "https://cz.mouser.com/datasheet/2/268/MCP1700_Data_Sheet_20001826F-737536.pdf" H 4050 1010 50  0001 C CNN
+F 4 "LDO 3.3V, SOT23-3" H 3800 1051 50  0000 C CNN "DValue"
+F 5 "2020-11-20" H 4850 840 50  0001 C CNN "Published"
+F 6 "Ondrej Ruzicka" H 4860 930 50  0001 C CNN "Publisher"
+F 7 "2021-01-26" H 4850 730 50  0001 C CNN "LastRevisionDate"
+F 8 "init" H 4850 1030 50  0001 C CNN "LastRevisionNote"
+F 9 "-" H 4850 1110 50  0001 C CNN "PackageIndex"
+F 10 "ICS_000567" H 0   0   50  0001 C CNN "StockId"
+	1    3800 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Passive:C1608X7R1C105K C7
+U 1 1 602E644C
+P 3200 1100
+F 0 "C7" H 3315 1146 50  0000 L CNN
+F 1 "C1608X7R1C105K" V 3350 1100 50  0001 C CNN
+F 2 "SC_Passive:C_0603_1608Metric" V 2900 1100 50  0001 C CNN
+F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf" H 3650 1200 50  0001 C CNN
+F 4 "1u 0603" H 3085 1020 50  0000 L CNN "DValue"
+F 5 "2020-11-15" H 3725 925 50  0001 C CNN "Published"
+F 6 "Ondrej Ruzicka" H 3725 1025 50  0001 C CNN "Publisher"
+F 7 "2021-18-02" H 3725 825 50  0001 C CNN "LastRevisionDate"
+F 8 "init" H 3700 1125 50  0001 C CNN "LastRevisionNote"
+F 9 "-" H 3700 1200 50  0001 C CNN "PackageIndex"
+F 10 "CAP_000381" H 0   0   50  0001 C CNN "StockId"
+	1    3200 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Passive:C1608X7R1C105K C8
+U 1 1 602E75EC
+P 4400 1100
+F 0 "C8" H 4515 1146 50  0000 L CNN
+F 1 "C1608X7R1C105K" V 4550 1100 50  0001 C CNN
+F 2 "SC_Passive:C_0603_1608Metric" V 4100 1100 50  0001 C CNN
+F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf" H 4850 1200 50  0001 C CNN
+F 4 "1u 0603" H 4290 1020 50  0000 L CNN "DValue"
+F 5 "2020-11-15" H 4925 925 50  0001 C CNN "Published"
+F 6 "Ondrej Ruzicka" H 4925 1025 50  0001 C CNN "Publisher"
+F 7 "2021-18-02" H 4925 825 50  0001 C CNN "LastRevisionDate"
+F 8 "init" H 4900 1125 50  0001 C CNN "LastRevisionNote"
+F 9 "-" H 4900 1200 50  0001 C CNN "PackageIndex"
+F 10 "CAP_000381" H 0   0   50  0001 C CNN "StockId"
+	1    4400 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Discrete:KPTD-1608LVZGCK D1
+U 1 1 602E9A7C
+P 5800 1300
+F 0 "D1" V 6020 1290 50  0000 R CNN
+F 1 "KPTD-1608LVZGCK" H 5800 1130 50  0001 C CNN
+F 2 "SC_Discrete:LED_0603_1608Metric" V 5190 1300 50  0001 C CNN
+F 3 "https://cdn.sos.sk/productdata/c8/ce/9a72d89b/kptd-1608lvzgck-1.pdf" H 6250 1400 50  0001 C CNN
+F 4 "LED green 0603" H 6115 1425 50  0000 R CNN "DValue"
+F 5 "2020-11-20" H 6570 1250 50  0001 C CNN "Published"
+F 6 "Ondrej Ruzicka" H 6580 1340 50  0001 C CNN "Publisher"
+F 7 "2021-01-26" H 6570 1140 50  0001 C CNN "LastRevisionDate"
+F 8 "init" H 6570 1440 50  0001 C CNN "LastRevisionNote"
+F 9 "-" H 6570 1520 50  0001 C CNN "PackageIndex"
+F 10 "OPT_000080" H 0   0   50  0001 C CNN "StockId"
+	1    5800 1300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Passive:ERJ3EKF3300V R3
+U 1 1 602EAF63
+P 5800 1800
+F 0 "R3" H 5550 1850 50  0000 L CNN
+F 1 "ERJ3EKF3300V" V 5915 1800 50  0001 C CNN
+F 2 "SC_Passive:R_0603_1608Metric" V 5500 1800 50  0001 C CNN
+F 3 "https://cz.mouser.com/datasheet/2/315/AOA0000C304-1149620.pdf" H 6250 1900 50  0001 C CNN
+F 4 "330R 0603" H 5550 1770 50  0000 L CNN "DValue"
+F 5 "2020-11-15" H 6325 1625 50  0001 C CNN "Published"
+F 6 "Ondrej Ruzicka" H 6325 1725 50  0001 C CNN "Publisher"
+F 7 "2021-18-02" H 6325 1525 50  0001 C CNN "LastRevisionDate"
+F 8 "init" H 6300 1825 50  0001 C CNN "LastRevisionNote"
+F 9 "-" H 6300 1900 50  0001 C CNN "PackageIndex"
+F 10 "RES_000061" H 0   0   50  0001 C CNN "StockId"
+	1    5800 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Discrete:KPTD-1608LVZGCK D3
+U 1 1 602EE7B4
+P 7400 1300
+F 0 "D3" V 7630 1290 50  0000 R CNN
+F 1 "KPTD-1608LVZGCK" H 7400 1130 50  0001 C CNN
+F 2 "SC_Discrete:LED_0603_1608Metric" V 6790 1300 50  0001 C CNN
+F 3 "https://cdn.sos.sk/productdata/c8/ce/9a72d89b/kptd-1608lvzgck-1.pdf" H 7850 1400 50  0001 C CNN
+F 4 "LED green 0603" H 7700 1420 50  0000 R CNN "DValue"
+F 5 "2020-11-20" H 8170 1250 50  0001 C CNN "Published"
+F 6 "Ondrej Ruzicka" H 8180 1340 50  0001 C CNN "Publisher"
+F 7 "2021-01-26" H 8170 1140 50  0001 C CNN "LastRevisionDate"
+F 8 "init" H 8170 1440 50  0001 C CNN "LastRevisionNote"
+F 9 "-" H 8170 1520 50  0001 C CNN "PackageIndex"
+F 10 "OPT_000080" H 0   0   50  0001 C CNN "StockId"
+	1    7400 1300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Passive:ERJ3EKF3300V R4
+U 1 1 602EE7C1
+P 7400 1800
+F 0 "R4" H 7140 1860 50  0000 L CNN
+F 1 "ERJ3EKF3300V" V 7515 1800 50  0001 C CNN
+F 2 "SC_Passive:R_0603_1608Metric" V 7100 1800 50  0001 C CNN
+F 3 "https://cz.mouser.com/datasheet/2/315/AOA0000C304-1149620.pdf" H 7850 1900 50  0001 C CNN
+F 4 "330R 0603" H 7140 1770 50  0000 L CNN "DValue"
+F 5 "2020-11-15" H 7925 1625 50  0001 C CNN "Published"
+F 6 "Ondrej Ruzicka" H 7925 1725 50  0001 C CNN "Publisher"
+F 7 "2021-18-02" H 7925 1525 50  0001 C CNN "LastRevisionDate"
+F 8 "init" H 7900 1825 50  0001 C CNN "LastRevisionNote"
+F 9 "-" H 7900 1900 50  0001 C CNN "PackageIndex"
+F 10 "RES_000061" H 0   0   50  0001 C CNN "StockId"
+	1    7400 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Passive:ERJ3EKF7500V R2
+U 1 1 602EEECD
+P 6600 1800
+F 0 "R2" H 6350 1850 50  0000 L CNN
+F 1 "ERJ3EKF7500V" V 6700 1800 50  0001 C CNN
+F 2 "SC_Passive:R_0603_1608Metric" V 6300 1800 50  0001 C CNN
+F 3 "https://cz.mouser.com/datasheet/2/315/AOA0000C304-1149620.pdf" H 7050 1900 50  0001 C CNN
+F 4 "750R 0603" H 6350 1770 50  0000 L CNN "DValue"
+F 5 "2020-11-15" H 7125 1625 50  0001 C CNN "Published"
+F 6 "Ondrej Ruzicka" H 7125 1725 50  0001 C CNN "Publisher"
+F 7 "2021-18-02" H 7125 1525 50  0001 C CNN "LastRevisionDate"
+F 8 "init" H 7100 1825 50  0001 C CNN "LastRevisionNote"
+F 9 "-" H 7100 1900 50  0001 C CNN "PackageIndex"
+F 10 "RES_000070" H 0   0   50  0001 C CNN "StockId"
+	1    6600 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Discrete:KPTD-1608LVSECK-J3-PF D2
+U 1 1 602EFD1F
+P 6600 1300
+F 0 "D2" V 6820 1290 50  0000 R CNN
+F 1 "KPTD-1608LVSECK-J3-PF" H 6600 1130 50  0001 C CNN
+F 2 "SC_Discrete:LED_0603_1608Metric" V 5870 1300 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2068425.pdf" H 7050 1400 50  0001 C CNN
+F 4 "LED red 0603" H 6870 1420 50  0000 R CNN "DValue"
+F 5 "2020-11-20" H 7370 1250 50  0001 C CNN "Published"
+F 6 "Ondrej Ruzicka" H 7380 1340 50  0001 C CNN "Publisher"
+F 7 "2021-01-26" H 7370 1140 50  0001 C CNN "LastRevisionDate"
+F 8 "init" H 7370 1440 50  0001 C CNN "LastRevisionNote"
+F 9 "-" H 7370 1520 50  0001 C CNN "PackageIndex"
+F 10 "OPT_000081" H 0   0   50  0001 C CNN "StockId"
+	1    6600 1300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Passive:ERJ3EKF1002V R5
+U 1 1 602FFE23
+P 1300 5510
+F 0 "R5" H 1370 5556 50  0000 L CNN
+F 1 "ERJ3EKF1002V" V 1400 5510 50  0001 C CNN
+F 2 "SC_Passive:R_0603_1608Metric" V 1000 5510 50  0001 C CNN
+F 3 "https://cz.mouser.com/datasheet/2/315/AOA0000C304-1149620.pdf" H 1750 5610 50  0001 C CNN
+F 4 "10.0k 0603" V 1205 5305 50  0000 L CNN "DValue"
+F 5 "2020-11-15" H 1825 5335 50  0001 C CNN "Published"
+F 6 "Ondrej Ruzicka" H 1825 5435 50  0001 C CNN "Publisher"
+F 7 "2021-18-02" H 1825 5235 50  0001 C CNN "LastRevisionDate"
+F 8 "init" H 1800 5535 50  0001 C CNN "LastRevisionNote"
+F 9 "-" H 1800 5610 50  0001 C CNN "PackageIndex"
+F 10 "RES_000097" H 0   0   50  0001 C CNN "StockId"
+	1    1300 5510
+	1    0    0    -1  
+$EndComp
+$Comp
+L Passive:GRM188R60J106KE47D C4
+U 1 1 60300B92
+P 1095 3905
+F 0 "C4" H 1210 3951 50  0000 L CNN
+F 1 "GRM188R60J106KE47D" V 1245 3905 50  0001 C CNN
+F 2 "SC_Passive:C_0603_1608Metric" V 795 3905 50  0001 C CNN
+F 3 "https://cz.mouser.com/datasheet/2/281/murata_03052018_GRM_Series_1-1310166.pdf" H 1545 4005 50  0001 C CNN
+F 4 "10u 0603" H 935 3825 50  0000 L CNN "DValue"
+F 5 "2020-11-15" H 1620 3730 50  0001 C CNN "Published"
+F 6 "Ondrej Ruzicka" H 1620 3830 50  0001 C CNN "Publisher"
+F 7 "2021-18-02" H 1620 3630 50  0001 C CNN "LastRevisionDate"
+F 8 "init" H 1595 3930 50  0001 C CNN "LastRevisionNote"
+F 9 "-" H 1595 4005 50  0001 C CNN "PackageIndex"
+F 10 "CAP_000536" H 0   0   50  0001 C CNN "StockId"
+	1    1095 3905
+	1    0    0    -1  
+$EndComp
+$Comp
+L Passive:C1608X7R1C105K C5
+U 1 1 60301655
+P 1595 3905
+F 0 "C5" H 1710 3951 50  0000 L CNN
+F 1 "C1608X7R1C105K" V 1745 3905 50  0001 C CNN
+F 2 "SC_Passive:C_0603_1608Metric" V 1295 3905 50  0001 C CNN
+F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf" H 2045 4005 50  0001 C CNN
+F 4 "1u 0603" H 1480 3825 50  0000 L CNN "DValue"
+F 5 "2020-11-15" H 2120 3730 50  0001 C CNN "Published"
+F 6 "Ondrej Ruzicka" H 2120 3830 50  0001 C CNN "Publisher"
+F 7 "2021-18-02" H 2120 3630 50  0001 C CNN "LastRevisionDate"
+F 8 "init" H 2095 3930 50  0001 C CNN "LastRevisionNote"
+F 9 "-" H 2095 4005 50  0001 C CNN "PackageIndex"
+F 10 "CAP_000381" H 0   0   50  0001 C CNN "StockId"
+	1    1595 3905
+	1    0    0    -1  
+$EndComp
+$Comp
+L Passive:C1608X7R1H104K080AA C6
+U 1 1 60302145
+P 2095 3905
+F 0 "C6" H 2210 3951 50  0000 L CNN
+F 1 "C1608X7R1H104K080AA" V 2240 3905 50  0001 C CNN
+F 2 "SC_Passive:C_0603_1608Metric" V 1795 3905 50  0001 C CNN
+F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf" H 2545 4005 50  0001 C CNN
+F 4 "100n 0603" H 1880 3820 50  0000 L CNN "DValue"
+F 5 "2020-11-15" H 2620 3730 50  0001 C CNN "Published"
+F 6 "Ondrej Ruzicka" H 2620 3830 50  0001 C CNN "Publisher"
+F 7 "2021-18-02" H 2620 3630 50  0001 C CNN "LastRevisionDate"
+F 8 "init" H 2595 3930 50  0001 C CNN "LastRevisionNote"
+F 9 "-" H 2595 4005 50  0001 C CNN "PackageIndex"
+F 10 "CAP_000000" H 0   0   50  0001 C CNN "StockId"
+	1    2095 3905
+	1    0    0    -1  
+$EndComp
+$Comp
+L Passive:GRM188R60J106KE47D C2
+U 1 1 603075CD
+P 8325 2500
+F 0 "C2" H 8440 2546 50  0000 L CNN
+F 1 "GRM188R60J106KE47D" V 8475 2500 50  0001 C CNN
+F 2 "SC_Passive:C_0603_1608Metric" V 8025 2500 50  0001 C CNN
+F 3 "https://cz.mouser.com/datasheet/2/281/murata_03052018_GRM_Series_1-1310166.pdf" H 8775 2600 50  0001 C CNN
+F 4 "10u 0603" H 8155 2405 50  0000 L CNN "DValue"
+F 5 "2020-11-15" H 8850 2325 50  0001 C CNN "Published"
+F 6 "Ondrej Ruzicka" H 8850 2425 50  0001 C CNN "Publisher"
+F 7 "2021-18-02" H 8850 2225 50  0001 C CNN "LastRevisionDate"
+F 8 "init" H 8825 2525 50  0001 C CNN "LastRevisionNote"
+F 9 "-" H 8825 2600 50  0001 C CNN "PackageIndex"
+F 10 "CAP_000536" H 0   0   50  0001 C CNN "StockId"
+	1    8325 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Passive:C1608X7R1H104K080AA C3
+U 1 1 60308416
+P 8825 2500
+F 0 "C3" H 8940 2546 50  0000 L CNN
+F 1 "C1608X7R1H104K080AA" V 8970 2500 50  0001 C CNN
+F 2 "SC_Passive:C_0603_1608Metric" V 8525 2500 50  0001 C CNN
+F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf" H 9275 2600 50  0001 C CNN
+F 4 "100n 0603" H 8620 2415 50  0000 L CNN "DValue"
+F 5 "2020-11-15" H 9350 2325 50  0001 C CNN "Published"
+F 6 "Ondrej Ruzicka" H 9350 2425 50  0001 C CNN "Publisher"
+F 7 "2021-18-02" H 9350 2225 50  0001 C CNN "LastRevisionDate"
+F 8 "init" H 9325 2525 50  0001 C CNN "LastRevisionNote"
+F 9 "-" H 9325 2600 50  0001 C CNN "PackageIndex"
+F 10 "CAP_000000" H 0   0   50  0001 C CNN "StockId"
+	1    8825 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Net:GND #PWR0101
+U 1 1 602ED232
+P 1900 2000
+F 0 "#PWR0101" H 1900 1750 50  0001 C CNN
+F 1 "GND" H 1905 1877 50  0000 C CNN
+F 2 "" H 1900 2000 50  0001 C CNN
+F 3 "" H 1900 2000 50  0001 C CNN
+	1    1900 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 1300 1900 1300
+Wire Wire Line
+	1900 1300 1900 1400
+Wire Wire Line
+	1700 1900 1900 1900
+Connection ~ 1900 1900
+Wire Wire Line
+	1900 1900 1900 2000
+Wire Wire Line
+	1700 1800 1900 1800
+Connection ~ 1900 1800
+Wire Wire Line
+	1900 1800 1900 1900
+Wire Wire Line
+	1700 1700 1900 1700
+Connection ~ 1900 1700
+Wire Wire Line
+	1900 1700 1900 1800
+Wire Wire Line
+	1700 1600 1900 1600
+Connection ~ 1900 1600
+Wire Wire Line
+	1900 1600 1900 1700
+Wire Wire Line
+	1700 1500 1900 1500
+Connection ~ 1900 1500
+Wire Wire Line
+	1900 1500 1900 1600
+Wire Wire Line
+	1700 1400 1900 1400
+Connection ~ 1900 1400
+Wire Wire Line
+	1900 1400 1900 1500
+$Comp
+L Net:GND #PWR0102
+U 1 1 602F267E
+P 7630 6130
+F 0 "#PWR0102" H 7630 5880 50  0001 C CNN
+F 1 "GND" H 7635 6007 50  0000 C CNN
+F 2 "" H 7630 6130 50  0001 C CNN
+F 3 "" H 7630 6130 50  0001 C CNN
+	1    7630 6130
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7530 4730 7630 4730
+Wire Wire Line
+	7630 4730 7630 4830
+Wire Wire Line
+	7530 6030 7630 6030
+Connection ~ 7630 6030
+Wire Wire Line
+	7630 6030 7630 6130
+Wire Wire Line
+	7530 5930 7630 5930
+Connection ~ 7630 5930
+Wire Wire Line
+	7630 5930 7630 6030
+Wire Wire Line
+	7530 5830 7630 5830
+Connection ~ 7630 5830
+Wire Wire Line
+	7630 5830 7630 5930
+Wire Wire Line
+	7530 5730 7630 5730
+Connection ~ 7630 5730
+Wire Wire Line
+	7630 5730 7630 5830
+Wire Wire Line
+	7530 5630 7630 5630
+Connection ~ 7630 5630
+Wire Wire Line
+	7630 5630 7630 5730
+Wire Wire Line
+	7530 5530 7630 5530
+Connection ~ 7630 5530
+Wire Wire Line
+	7630 5530 7630 5630
+Wire Wire Line
+	7530 5430 7630 5430
+Connection ~ 7630 5430
+Wire Wire Line
+	7630 5430 7630 5530
+Wire Wire Line
+	7530 5330 7630 5330
+Connection ~ 7630 5330
+Wire Wire Line
+	7630 5330 7630 5430
+Wire Wire Line
+	7530 5230 7630 5230
+Connection ~ 7630 5230
+Wire Wire Line
+	7630 5230 7630 5330
+Wire Wire Line
+	7530 5130 7630 5130
+Connection ~ 7630 5130
+Wire Wire Line
+	7630 5130 7630 5230
+Wire Wire Line
+	7530 5030 7630 5030
+Connection ~ 7630 5030
+Wire Wire Line
+	7630 5030 7630 5130
+Wire Wire Line
+	7530 4930 7630 4930
+Connection ~ 7630 4930
+Wire Wire Line
+	7630 4930 7630 5030
+Wire Wire Line
+	7530 4830 7630 4830
+Connection ~ 7630 4830
+Wire Wire Line
+	7630 4830 7630 4930
+NoConn ~ 1700 1200
+Text Label 4930 2830 0    50   ~ 0
+BOOT
+Wire Wire Line
+	5330 2930 4930 2930
+Text Label 4930 2930 0    50   ~ 0
+SRST
+Text Label 4930 3030 0    50   ~ 0
+NRST
+NoConn ~ 5330 3630
+NoConn ~ 5330 3730
+NoConn ~ 5330 3530
+NoConn ~ 5330 3330
+Text Label 4930 3830 0    50   ~ 0
+DIO4
+NoConn ~ 5330 3430
+Text Label 4930 4030 0    50   ~ 0
+PA0
+Wire Wire Line
+	5330 4030 4930 4030
+Text Label 4930 4130 0    50   ~ 0
+PA2
+Wire Wire Line
+	5330 4130 4930 4130
+Text Label 4930 4230 0    50   ~ 0
+PA3
+Wire Wire Line
+	5330 4230 4930 4230
+Text Label 4930 4330 0    50   ~ 0
+PA4
+Wire Wire Line
+	5330 4330 4930 4330
+Text Label 4930 4430 0    50   ~ 0
+PA5
+Text Label 4930 4530 0    50   ~ 0
+PA8
+Wire Wire Line
+	5330 4530 4930 4530
+Text Label 4930 4630 0    50   ~ 0
+PA9
+Wire Wire Line
+	5330 4630 4930 4630
+Text Label 4930 4730 0    50   ~ 0
+PA10
+Wire Wire Line
+	5330 4730 4930 4730
+Text Label 4930 4830 0    50   ~ 0
+USB_N
+Text Label 4930 4930 0    50   ~ 0
+USB_P
+Text Label 4930 5030 0    50   ~ 0
+SWDAT
+Wire Wire Line
+	5330 5030 4930 5030
+Text Label 4930 5130 0    50   ~ 0
+SWCLK
+Wire Wire Line
+	5330 5130 4930 5130
+Text Label 4930 5330 0    50   ~ 0
+ANT
+Wire Wire Line
+	5330 5330 4930 5330
+Text Label 4830 6030 0    50   ~ 0
+TCXOMCU_IN
+Wire Wire Line
+	4830 6030 5330 6030
+Text Label 8030 4530 2    50   ~ 0
+TCXOMCU_IN
+Wire Wire Line
+	7530 4530 8030 4530
+$Comp
+L Modules:CMWX1ZZABZ-078 IC1
+U 1 1 602F7E0D
+P 6430 4330
+F 0 "IC1" H 5480 5990 50  0000 C CNN
+F 1 "CMWX1ZZABZ-078" H 6440 5830 50  0000 C CNN
+F 2 "SC_Modules:CMWX1ZZABZ-078_12.5x11.6mm_Module" V 4880 4330 50  0001 C CNN
+F 3 "https://cz.mouser.com/datasheet/2/281/Murata_11172016_CMWX1ZZABZ-078-1186186.pdf" H 6880 4430 50  0001 C CNN
+F 4 "Lora Murata module" H 6440 5760 50  0000 C CNN "DValue"
+F 5 "2020-11-19" H 8140 4250 50  0001 C CNN "Published"
+F 6 "Ondrej Ruzicka" H 8150 4330 50  0001 C CNN "Publisher"
+F 7 "2021-01-26" H 8140 4160 50  0001 C CNN "LastRevisionDate"
+F 8 "init" H 8150 4410 50  0001 C CNN "LastRevisionNote"
+F 9 "-" H 8140 4480 50  0001 C CNN "PackageIndex"
+F 10 "MOD_000027" H 0   0   50  0001 C CNN "StockId"
+	1    6430 4330
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7530 3030 7630 3030
+Wire Wire Line
+	7630 3030 7630 2930
+Wire Wire Line
+	7530 2930 7630 2930
+Connection ~ 7630 2930
+Wire Wire Line
+	7530 3430 7930 3430
+Text Label 7930 3430 2    50   ~ 0
+PB2
+Wire Wire Line
+	7530 3530 7930 3530
+Text Label 7930 3530 2    50   ~ 0
+PB5
+Wire Wire Line
+	7530 3630 7930 3630
+Text Label 7930 3630 2    50   ~ 0
+PB6
+Wire Wire Line
+	7530 3730 7930 3730
+Text Label 7930 3730 2    50   ~ 0
+PB7
+Wire Wire Line
+	7530 4030 7930 4030
+Text Label 7930 4030 2    50   ~ 0
+PB12
+Wire Wire Line
+	7530 4130 7930 4130
+Text Label 7930 4130 2    50   ~ 0
+PB13
+Wire Wire Line
+	7530 4230 7930 4230
+Text Label 7930 4230 2    50   ~ 0
+PB14
+Wire Wire Line
+	7530 4330 7930 4330
+Text Label 7930 4330 2    50   ~ 0
+PB15
+$Comp
+L Passive:C1608X7R1H104K080AA C1
+U 1 1 6034CEDD
+P 10640 5675
+F 0 "C1" H 10515 5780 50  0000 L CNN
+F 1 "C1608X7R1H104K080AA" V 10785 5675 50  0001 C CNN
+F 2 "SC_Passive:C_0603_1608Metric" V 10340 5675 50  0001 C CNN
+F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf" H 11090 5775 50  0001 C CNN
+F 4 "100n 0603" H 10425 5600 50  0000 L CNN "DValue"
+F 5 "2020-11-15" H 11165 5500 50  0001 C CNN "Published"
+F 6 "Ondrej Ruzicka" H 11165 5600 50  0001 C CNN "Publisher"
+F 7 "2021-18-02" H 11165 5400 50  0001 C CNN "LastRevisionDate"
+F 8 "init" H 11140 5700 50  0001 C CNN "LastRevisionNote"
+F 9 "-" H 11140 5775 50  0001 C CNN "PackageIndex"
+F 10 "CAP_000000" H 0   0   50  0001 C CNN "StockId"
+	1    10640 5675
+	1    0    0    -1  
+$EndComp
+$Comp
+L Net:GND #PWR0103
+U 1 1 6034E6A5
+P 10405 5970
+F 0 "#PWR0103" H 10405 5720 50  0001 C CNN
+F 1 "GND" H 10410 5847 50  0000 C CNN
+F 2 "" H 10405 5970 50  0001 C CNN
+F 3 "" H 10405 5970 50  0001 C CNN
+	1    10405 5970
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10305 5870 10405 5870
+Wire Wire Line
+	10405 5870 10405 5970
+$Comp
+L Net:GND #PWR0104
+U 1 1 6035301B
+P 10640 5975
+F 0 "#PWR0104" H 10640 5725 50  0001 C CNN
+F 1 "GND" H 10645 5852 50  0000 C CNN
+F 2 "" H 10640 5975 50  0001 C CNN
+F 3 "" H 10640 5975 50  0001 C CNN
+	1    10640 5975
+	1    0    0    -1  
+$EndComp
+$Comp
+L Passive:ERJ3EKF2201V R7
+U 1 1 60358EE8
+P 9005 5270
+F 0 "R7" H 8855 5335 50  0000 L CNN
+F 1 "ERJ3EKF2201V" V 9105 5270 50  0001 C CNN
+F 2 "SC_Passive:R_0603_1608Metric" V 8705 5270 50  0001 C CNN
+F 3 "https://cz.mouser.com/datasheet/2/315/AOA0000C304-1149620.pdf" H 9455 5370 50  0001 C CNN
+F 4 "2.2k 0603" V 9100 5090 50  0000 L CNN "DValue"
+F 5 "2020-11-15" H 9530 5095 50  0001 C CNN "Published"
+F 6 "Ondrej Ruzicka" H 9530 5195 50  0001 C CNN "Publisher"
+F 7 "2021-18-02" H 9530 4995 50  0001 C CNN "LastRevisionDate"
+F 8 "init" H 9505 5295 50  0001 C CNN "LastRevisionNote"
+F 9 "-" H 9505 5370 50  0001 C CNN "PackageIndex"
+F 10 "RES_000097" H 0   0   50  0001 C CNN "StockId"
+	1    9005 5270
+	1    0    0    -1  
+$EndComp
+$Comp
+L Passive:ERJ3EKF2201V R8
+U 1 1 6035A2B6
+P 8705 5270
+F 0 "R8" H 8555 5335 50  0000 L CNN
+F 1 "ERJ3EKF2201V" V 8805 5270 50  0001 C CNN
+F 2 "SC_Passive:R_0603_1608Metric" V 8405 5270 50  0001 C CNN
+F 3 "https://cz.mouser.com/datasheet/2/315/AOA0000C304-1149620.pdf" H 9155 5370 50  0001 C CNN
+F 4 "2.2k 0603" V 8795 5090 50  0000 L CNN "DValue"
+F 5 "2020-11-15" H 9230 5095 50  0001 C CNN "Published"
+F 6 "Ondrej Ruzicka" H 9230 5195 50  0001 C CNN "Publisher"
+F 7 "2021-18-02" H 9230 4995 50  0001 C CNN "LastRevisionDate"
+F 8 "init" H 9205 5295 50  0001 C CNN "LastRevisionNote"
+F 9 "-" H 9205 5370 50  0001 C CNN "PackageIndex"
+F 10 "RES_000097" H 0   0   50  0001 C CNN "StockId"
+	1    8705 5270
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10305 5470 10640 5470
+Wire Wire Line
+	10640 5470 10640 5375
+Wire Wire Line
+	10640 5525 10640 5470
+Wire Wire Line
+	10640 5470 10635 5470
+Connection ~ 10640 5470
+Wire Wire Line
+	10640 5825 10640 5975
+Wire Wire Line
+	9305 5570 8705 5570
+Wire Wire Line
+	8705 5570 8705 5420
+Wire Wire Line
+	8705 5070 8705 5120
+Wire Wire Line
+	9005 5070 9005 5120
+Wire Wire Line
+	9005 5420 9005 5670
+Wire Wire Line
+	9005 5670 9305 5670
+$Comp
+L Net:GND #PWR0105
+U 1 1 603A40CF
+P 3200 1300
+F 0 "#PWR0105" H 3200 1050 50  0001 C CNN
+F 1 "GND" H 3205 1177 50  0000 C CNN
+F 2 "" H 3200 1300 50  0001 C CNN
+F 3 "" H 3200 1300 50  0001 C CNN
+	1    3200 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Net:GND #PWR0106
+U 1 1 603A44CF
+P 3800 1300
+F 0 "#PWR0106" H 3800 1050 50  0001 C CNN
+F 1 "GND" H 3805 1177 50  0000 C CNN
+F 2 "" H 3800 1300 50  0001 C CNN
+F 3 "" H 3800 1300 50  0001 C CNN
+	1    3800 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Net:GND #PWR0107
+U 1 1 603A51D0
+P 4400 1300
+F 0 "#PWR0107" H 4400 1050 50  0001 C CNN
+F 1 "GND" H 4405 1177 50  0000 C CNN
+F 2 "" H 4400 1300 50  0001 C CNN
+F 3 "" H 4400 1300 50  0001 C CNN
+	1    4400 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 950  3200 900 
+Connection ~ 3200 900 
+Wire Wire Line
+	3200 900  3500 900 
+Wire Wire Line
+	3200 1250 3200 1300
+Wire Wire Line
+	3800 1200 3800 1300
+Wire Wire Line
+	4400 1300 4400 1250
+Wire Wire Line
+	4400 950  4400 900 
+Connection ~ 4400 900 
+Wire Wire Line
+	4400 900  4650 900 
+Wire Wire Line
+	5250 800  5250 900 
+Wire Wire Line
+	5250 900  4950 900 
+Text Label 1000 6000 0    50   ~ 0
+PA10
+Wire Wire Line
+	1400 6000 1300 6000
+Wire Wire Line
+	1300 5660 1300 6000
+Connection ~ 1300 6000
+Wire Wire Line
+	1300 6000 1000 6000
+Wire Wire Line
+	1300 5240 1300 5360
+Wire Wire Line
+	1400 6100 1000 6100
+Text Label 1000 6100 0    50   ~ 0
+PA9
+Wire Wire Line
+	1400 6200 1000 6200
+Text Label 1000 6200 0    50   ~ 0
+PA8
+Wire Wire Line
+	1400 6300 1000 6300
+Text Label 1000 6300 0    50   ~ 0
+PB7\NRST
+Wire Wire Line
+	1400 6400 1000 6400
+Text Label 1000 6400 0    50   ~ 0
+PA4
+Wire Wire Line
+	1400 6500 1000 6500
+Text Label 1000 6500 0    50   ~ 0
+PA0
+Wire Wire Line
+	1400 6600 1000 6600
+Text Label 1000 6600 0    50   ~ 0
+PB12
+Wire Wire Line
+	1400 6700 1000 6700
+Text Label 1000 6700 0    50   ~ 0
+PB13
+Wire Wire Line
+	1400 6800 1000 6800
+Text Label 1000 6800 0    50   ~ 0
+PB14
+Wire Wire Line
+	1400 6900 1000 6900
+Text Label 1000 6900 0    50   ~ 0
+PB15
+Wire Wire Line
+	1400 7000 1300 7000
+$Comp
+L Net:GND #PWR0108
+U 1 1 60377C42
+P 1340 7160
+F 0 "#PWR0108" H 1340 6910 50  0001 C CNN
+F 1 "GND" H 1345 7037 50  0000 C CNN
+F 2 "" H 1340 7160 50  0001 C CNN
+F 3 "" H 1340 7160 50  0001 C CNN
+	1    1340 7160
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1400 7100 1340 7100
+Wire Wire Line
+	1340 7100 1340 7160
+$Comp
+L Net:GND #PWR0109
+U 1 1 6037D1F3
+P 2670 7160
+F 0 "#PWR0109" H 2670 6910 50  0001 C CNN
+F 1 "GND" H 2675 7037 50  0000 C CNN
+F 2 "" H 2670 7160 50  0001 C CNN
+F 3 "" H 2670 7160 50  0001 C CNN
+	1    2670 7160
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 7100 2670 7100
+Wire Wire Line
+	2670 7100 2670 7160
+$Comp
+L Net:+5V #PWR0110
+U 1 1 60383A36
+P 2690 7000
+F 0 "#PWR0110" H 2690 6850 50  0001 C CNN
+F 1 "+5V" V 2705 7128 50  0000 L CNN
+F 2 "" H 2690 7000 50  0001 C CNN
+F 3 "" H 2690 7000 50  0001 C CNN
+	1    2690 7000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2600 7000 2690 7000
+Wire Wire Line
+	3000 6400 2600 6400
+Text Label 3000 6400 2    50   ~ 0
+PB2
+Wire Wire Line
+	3000 6500 2600 6500
+Text Label 3000 6500 2    50   ~ 0
+PB5
+Wire Wire Line
+	3000 6600 2600 6600
+Text Label 3000 6600 2    50   ~ 0
+PA3
+Wire Wire Line
+	3000 6700 2600 6700
+Text Label 3000 6700 2    50   ~ 0
+PA2
+Wire Wire Line
+	3000 6800 2600 6800
+Text Label 3000 6800 2    50   ~ 0
+PB8
+Wire Wire Line
+	3000 6900 2600 6900
+Text Label 3000 6900 2    50   ~ 0
+PB9
+$Comp
+L Net:GND #PWR0111
+U 1 1 603AE5E6
+P 1095 4105
+F 0 "#PWR0111" H 1095 3855 50  0001 C CNN
+F 1 "GND" H 1100 3982 50  0000 C CNN
+F 2 "" H 1095 4105 50  0001 C CNN
+F 3 "" H 1095 4105 50  0001 C CNN
+	1    1095 4105
+	1    0    0    -1  
+$EndComp
+$Comp
+L Net:GND #PWR0112
+U 1 1 603B11D9
+P 8325 2700
+F 0 "#PWR0112" H 8325 2450 50  0001 C CNN
+F 1 "GND" H 8330 2577 50  0000 C CNN
+F 2 "" H 8325 2700 50  0001 C CNN
+F 3 "" H 8325 2700 50  0001 C CNN
+	1    8325 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1095 3725 1595 3725
+Wire Wire Line
+	2095 3725 2095 3755
+Wire Wire Line
+	1595 3755 1595 3725
+Connection ~ 1595 3725
+Wire Wire Line
+	1595 3725 2095 3725
+Wire Wire Line
+	1095 4055 1095 4085
+Wire Wire Line
+	1095 4085 1595 4085
+Wire Wire Line
+	2095 4085 2095 4055
+Connection ~ 1095 4085
+Wire Wire Line
+	1095 4085 1095 4105
+Wire Wire Line
+	1595 4055 1595 4085
+Connection ~ 1595 4085
+Wire Wire Line
+	1595 4085 2095 4085
+Wire Wire Line
+	8825 2320 8825 2350
+Wire Wire Line
+	8325 2650 8325 2680
+Wire Wire Line
+	8325 2680 8825 2680
+Wire Wire Line
+	8825 2680 8825 2650
+Connection ~ 8325 2680
+Wire Wire Line
+	8325 2680 8325 2700
+$Comp
+L Discrete:KPTD-1608LVZGCK D7
+U 1 1 6041BC16
+P 6100 1300
+F 0 "D7" V 6320 1290 50  0000 R CNN
+F 1 "KPTD-1608LVZGCK" H 6100 1130 50  0001 C CNN
+F 2 "SC_Discrete:LED_0603_1608Metric" V 5490 1300 50  0001 C CNN
+F 3 "https://cdn.sos.sk/productdata/c8/ce/9a72d89b/kptd-1608lvzgck-1.pdf" H 6550 1400 50  0001 C CNN
+F 4 "LED green 0603" V 6048 1182 50  0001 R CNN "DValue"
+F 5 "2020-11-20" H 6870 1250 50  0001 C CNN "Published"
+F 6 "Ondrej Ruzicka" H 6880 1340 50  0001 C CNN "Publisher"
+F 7 "2021-01-26" H 6870 1140 50  0001 C CNN "LastRevisionDate"
+F 8 "init" H 6870 1440 50  0001 C CNN "LastRevisionNote"
+F 9 "-" H 6870 1520 50  0001 C CNN "PackageIndex"
+F 10 "OPT_000080" H 0   0   50  0001 C CNN "StockId"
+	1    6100 1300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Net:GND #PWR0113
+U 1 1 6042559B
+P 5800 2000
+F 0 "#PWR0113" H 5800 1750 50  0001 C CNN
+F 1 "GND" H 5805 1877 50  0000 C CNN
+F 2 "" H 5800 2000 50  0001 C CNN
+F 3 "" H 5800 2000 50  0001 C CNN
+	1    5800 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 900  5800 980 
+Wire Wire Line
+	6100 1150 6100 980 
+Wire Wire Line
+	6100 980  5800 980 
+Connection ~ 5800 980 
+Wire Wire Line
+	5800 980  5800 1150
+Wire Wire Line
+	5800 1450 5800 1565
+Wire Wire Line
+	6100 1450 6100 1565
+Wire Wire Line
+	6100 1565 5800 1565
+Connection ~ 5800 1565
+Wire Wire Line
+	5800 1565 5800 1650
+Wire Wire Line
+	5800 1950 5800 2000
+$Comp
+L Net:GND #PWR0114
+U 1 1 604535B2
+P 6600 2000
+F 0 "#PWR0114" H 6600 1750 50  0001 C CNN
+F 1 "GND" H 6605 1877 50  0000 C CNN
+F 2 "" H 6600 2000 50  0001 C CNN
+F 3 "" H 6600 2000 50  0001 C CNN
+	1    6600 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Net:GND #PWR0115
+U 1 1 60453E15
+P 7400 2000
+F 0 "#PWR0115" H 7400 1750 50  0001 C CNN
+F 1 "GND" H 7405 1877 50  0000 C CNN
+F 2 "" H 7400 2000 50  0001 C CNN
+F 3 "" H 7400 2000 50  0001 C CNN
+	1    7400 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6600 1950 6600 2000
+Text Label 6600 800  3    50   ~ 0
+PB6
+Text Label 7400 800  3    50   ~ 0
+PB7
+Wire Wire Line
+	7400 1950 7400 2000
+$Comp
+L Net:GND #PWR0116
+U 1 1 604C13E0
+P 10410 1780
+F 0 "#PWR0116" H 10410 1530 50  0001 C CNN
+F 1 "GND" H 10415 1657 50  0000 C CNN
+F 2 "" H 10410 1780 50  0001 C CNN
+F 3 "" H 10410 1780 50  0001 C CNN
+	1    10410 1780
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10010 1280 10410 1280
+Wire Wire Line
+	10410 1280 10410 1180
+Wire Wire Line
+	10010 1480 10410 1480
+Wire Wire Line
+	10410 1480 10410 1780
+Wire Wire Line
+	10010 1380 10340 1380
+Text Label 10340 1380 2    50   ~ 0
+SWCLK
+Wire Wire Line
+	10010 1580 10340 1580
+Text Label 10340 1580 2    50   ~ 0
+SWDAT
+Wire Wire Line
+	10010 1680 10340 1680
+Text Label 10340 1680 2    50   ~ 0
+NRST
+$Comp
+L Passive:GRM1885C1H100JA01D C11
+U 1 1 602F5B6D
+P 9720 4240
+F 0 "C11" H 9550 4330 50  0000 L CNN
+F 1 "GRM1885C1H100JA01D" V 9865 4240 50  0001 C CNN
+F 2 "SC_Passive:C_0603_1608Metric" V 9420 4240 50  0001 C CNN
+F 3 "https://cz.mouser.com/datasheet/2/281/murata_03052018_GRM_Series_1-1310166.pdf" H 10170 4340 50  0001 C CNN
+F 4 "10p 0603" H 9555 4155 50  0000 L CNN "DValue"
+F 5 "2020-11-15" H 10245 4065 50  0001 C CNN "Published"
+F 6 "Ondrej Ruzicka" H 10245 4165 50  0001 C CNN "Publisher"
+F 7 "2021-18-02" H 10245 3965 50  0001 C CNN "LastRevisionDate"
+F 8 "init" H 10220 4265 50  0001 C CNN "LastRevisionNote"
+F 9 "-" H 10220 4340 50  0001 C CNN "PackageIndex"
+F 10 "CAP_000016" H 0   0   50  0001 C CNN "StockId"
+	1    9720 4240
+	1    0    0    -1  
+$EndComp
+$Comp
+L Modules:W3214 AN2
+U 1 1 602F4F23
+P 10120 3840
+F 0 "AN2" H 10120 4142 50  0000 C CNN
+F 1 "W3214" H 10120 3590 50  0001 C CNN
+F 2 "SC_Modules:Pulse_W3214_10x3.2x5mm" V 9670 3840 50  0001 C CNN
+F 3 "https://cz.mouser.com/datasheet/2/336/W3214-1541978.pdf" H 10570 3940 50  0001 C CNN
+F 4 "antenna CHIP 863-873 MHz" H 10120 4051 50  0000 C CNN "DValue"
+F 5 "2020-11-27" H 11130 3810 50  0001 C CNN "Published"
+F 6 "Ondrej Ruzicka" H 11140 3890 50  0001 C CNN "Publisher"
+F 7 "2021-01-26" H 11130 3720 50  0001 C CNN "LastRevisionDate"
+F 8 "init" H 11140 3970 50  0001 C CNN "LastRevisionNote"
+F 9 "-" H 11130 4040 50  0001 C CNN "PackageIndex"
+F 10 "MOD_000054" H 0   0   50  0001 C CNN "StockId"
+	1    10120 3840
+	1    0    0    -1  
+$EndComp
+$Comp
+L Net:GND #PWR0117
+U 1 1 605206C3
+P 9720 4440
+F 0 "#PWR0117" H 9720 4190 50  0001 C CNN
+F 1 "GND" H 9725 4317 50  0000 C CNN
+F 2 "" H 9720 4440 50  0001 C CNN
+F 3 "" H 9720 4440 50  0001 C CNN
+	1    9720 4440
+	1    0    0    -1  
+$EndComp
+$Comp
+L Net:GND #PWR0118
+U 1 1 60520EDD
+P 10420 3840
+F 0 "#PWR0118" H 10420 3590 50  0001 C CNN
+F 1 "GND" V 10425 3762 50  0000 R CNN
+F 2 "" H 10420 3840 50  0001 C CNN
+F 3 "" H 10420 3840 50  0001 C CNN
+	1    10420 3840
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Net:GND #PWR0119
+U 1 1 6052263E
+P 9820 3740
+F 0 "#PWR0119" H 9820 3490 50  0001 C CNN
+F 1 "GND" V 9825 3662 50  0000 R CNN
+F 2 "" H 9820 3740 50  0001 C CNN
+F 3 "" H 9820 3740 50  0001 C CNN
+	1    9820 3740
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9920 3740 9820 3740
+Wire Wire Line
+	10420 3840 10320 3840
+Wire Wire Line
+	9720 4090 9720 3940
+Wire Wire Line
+	9505 3940 9720 3940
+Connection ~ 9720 3940
+Wire Wire Line
+	9720 3940 9920 3940
+Wire Wire Line
+	9720 4390 9720 4440
+Text Label 9505 3940 0    50   ~ 0
+ANT
+$Comp
+L Passive:C1608X7R1C105K C9
+U 1 1 6030BBA6
+P 8820 3430
+F 0 "C9" H 8935 3476 50  0000 L CNN
+F 1 "C1608X7R1C105K" V 8970 3430 50  0001 C CNN
+F 2 "SC_Passive:C_0603_1608Metric" V 8520 3430 50  0001 C CNN
+F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf" H 9270 3530 50  0001 C CNN
+F 4 "1u 0603" H 8710 3345 50  0000 L CNN "DValue"
+F 5 "2020-11-15" H 9345 3255 50  0001 C CNN "Published"
+F 6 "Ondrej Ruzicka" H 9345 3355 50  0001 C CNN "Publisher"
+F 7 "2021-18-02" H 9345 3155 50  0001 C CNN "LastRevisionDate"
+F 8 "init" H 9320 3455 50  0001 C CNN "LastRevisionNote"
+F 9 "-" H 9320 3530 50  0001 C CNN "PackageIndex"
+F 10 "CAP_000381" H 0   0   50  0001 C CNN "StockId"
+	1    8820 3430
+	1    0    0    -1  
+$EndComp
+$Comp
+L Passive:C1608X7R1H104K080AA C12
+U 1 1 6030AA63
+P 8320 3430
+F 0 "C12" H 8435 3476 50  0000 L CNN
+F 1 "C1608X7R1H104K080AA" V 8465 3430 50  0001 C CNN
+F 2 "SC_Passive:C_0603_1608Metric" V 8020 3430 50  0001 C CNN
+F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf" H 8770 3530 50  0001 C CNN
+F 4 "100n 0603" H 8110 3345 50  0000 L CNN "DValue"
+F 5 "2020-11-15" H 8845 3255 50  0001 C CNN "Published"
+F 6 "Ondrej Ruzicka" H 8845 3355 50  0001 C CNN "Publisher"
+F 7 "2021-18-02" H 8845 3155 50  0001 C CNN "LastRevisionDate"
+F 8 "init" H 8820 3455 50  0001 C CNN "LastRevisionNote"
+F 9 "-" H 8820 3530 50  0001 C CNN "PackageIndex"
+F 10 "CAP_000000" H 0   0   50  0001 C CNN "StockId"
+	1    8320 3430
+	1    0    0    -1  
+$EndComp
+$Comp
+L Passive:742792664 L1
+U 1 1 6038002D
+P 9120 3130
+F 0 "L1" V 9310 3130 50  0000 C CNN
+F 1 "742792664" V 9220 3130 50  0001 C CNN
+F 2 "SC_Passive:L_0603_1608Metric" V 8820 3130 50  0001 C CNN
+F 3 "https://cz.mouser.com/datasheet/2/445/742792664-1720549.pdf" H 9570 3230 50  0001 C CNN
+F 4 "Ferrite bead" V 9219 3130 50  0000 C CNN "DValue"
+F 5 "2020-02-15" H 9645 2955 50  0001 C CNN "Published"
+F 6 "Ondrej Ruzicka" H 9645 3055 50  0001 C CNN "Publisher"
+F 7 "2021-02-15" H 9645 2855 50  0001 C CNN "LastRevisionDate"
+F 8 "init" H 9620 3155 50  0001 C CNN "LastRevisionNote"
+F 9 "-" H 9620 3230 50  0001 C CNN "PackageIndex"
+F 10 "EMI_000000" H 0   0   50  0001 C CNN "StockId"
+	1    9120 3130
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Net:GND #PWR0120
+U 1 1 60382974
+P 8320 3630
+F 0 "#PWR0120" H 8320 3380 50  0001 C CNN
+F 1 "GND" H 8325 3507 50  0000 C CNN
+F 2 "" H 8320 3630 50  0001 C CNN
+F 3 "" H 8320 3630 50  0001 C CNN
+	1    8320 3630
+	1    0    0    -1  
+$EndComp
+$Comp
+L Net:GND #PWR0121
+U 1 1 603831D7
+P 8820 3630
+F 0 "#PWR0121" H 8820 3380 50  0001 C CNN
+F 1 "GND" H 8825 3507 50  0000 C CNN
+F 2 "" H 8820 3630 50  0001 C CNN
+F 3 "" H 8820 3630 50  0001 C CNN
+	1    8820 3630
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9270 3130 9520 3130
+Wire Wire Line
+	9520 3130 9520 3030
+Wire Wire Line
+	8820 3280 8820 3130
+Wire Wire Line
+	8320 3280 8320 3130
+Connection ~ 8320 3130
+Wire Wire Line
+	8320 3130 8555 3130
+Wire Wire Line
+	8320 3580 8320 3630
+Wire Wire Line
+	8820 3580 8820 3630
+Wire Wire Line
+	7530 3830 8400 3830
+Wire Wire Line
+	8400 3830 8400 5570
+Wire Wire Line
+	8400 5570 8705 5570
+Connection ~ 8705 5570
+Wire Wire Line
+	9005 5670 8300 5670
+Wire Wire Line
+	8300 5670 8300 3930
+Wire Wire Line
+	8300 3930 7530 3930
+Connection ~ 9005 5670
+Text Label 9100 5570 0    50   ~ 0
+SCL
+Text Label 9100 5670 0    50   ~ 0
+SDA
+$Comp
+L Passive:ERJ3EKF1002V R1
+U 1 1 6033A227
+P 5910 6700
+F 0 "R1" H 5755 6720 50  0000 L CNN
+F 1 "ERJ3EKF1002V" V 6010 6700 50  0001 C CNN
+F 2 "SC_Passive:R_0603_1608Metric" V 5610 6700 50  0001 C CNN
+F 3 "https://cz.mouser.com/datasheet/2/315/AOA0000C304-1149620.pdf" H 6360 6800 50  0001 C CNN
+F 4 "10.0k 0603" H 5635 6640 50  0000 L CNN "DValue"
+F 5 "2020-11-15" H 6435 6525 50  0001 C CNN "Published"
+F 6 "Ondrej Ruzicka" H 6435 6625 50  0001 C CNN "Publisher"
+F 7 "2021-18-02" H 6435 6425 50  0001 C CNN "LastRevisionDate"
+F 8 "init" H 6410 6725 50  0001 C CNN "LastRevisionNote"
+F 9 "-" H 6410 6800 50  0001 C CNN "PackageIndex"
+F 10 "RES_000097" H 0   0   50  0001 C CNN "StockId"
+	1    5910 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Passive:ERJ3EKF1002V R9
+U 1 1 6033B788
+P 4775 7005
+F 0 "R9" H 4625 7030 50  0000 L CNN
+F 1 "ERJ3EKF1002V" V 4875 7005 50  0001 C CNN
+F 2 "SC_Passive:R_0603_1608Metric" V 4475 7005 50  0001 C CNN
+F 3 "https://cz.mouser.com/datasheet/2/315/AOA0000C304-1149620.pdf" H 5225 7105 50  0001 C CNN
+F 4 "10.0k 0603" H 4505 6950 50  0000 L CNN "DValue"
+F 5 "2020-11-15" H 5300 6830 50  0001 C CNN "Published"
+F 6 "Ondrej Ruzicka" H 5300 6930 50  0001 C CNN "Publisher"
+F 7 "2021-18-02" H 5300 6730 50  0001 C CNN "LastRevisionDate"
+F 8 "init" H 5275 7030 50  0001 C CNN "LastRevisionNote"
+F 9 "-" H 5275 7105 50  0001 C CNN "PackageIndex"
+F 10 "RES_000097" H 0   0   50  0001 C CNN "StockId"
+	1    4775 7005
+	1    0    0    -1  
+$EndComp
+$Comp
+L Passive:C1608X7R1H104K080AA C10
+U 1 1 60346ABC
+P 4775 7405
+F 0 "C10" H 4600 7500 50  0000 L CNN
+F 1 "C1608X7R1H104K080AA" V 4920 7405 50  0001 C CNN
+F 2 "SC_Passive:C_0603_1608Metric" V 4475 7405 50  0001 C CNN
+F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf" H 5225 7505 50  0001 C CNN
+F 4 "100n 0603" H 4560 7320 50  0000 L CNN "DValue"
+F 5 "2020-11-15" H 5300 7230 50  0001 C CNN "Published"
+F 6 "Ondrej Ruzicka" H 5300 7330 50  0001 C CNN "Publisher"
+F 7 "2021-18-02" H 5300 7130 50  0001 C CNN "LastRevisionDate"
+F 8 "init" H 5275 7430 50  0001 C CNN "LastRevisionNote"
+F 9 "-" H 5275 7505 50  0001 C CNN "PackageIndex"
+F 10 "CAP_000000" H 0   0   50  0001 C CNN "StockId"
+	1    4775 7405
+	1    0    0    -1  
+$EndComp
+$Comp
+L Net:GND #PWR0134
+U 1 1 60353BF8
+P 5650 7400
+F 0 "#PWR0134" H 5650 7150 50  0001 C CNN
+F 1 "GND" H 5655 7277 50  0000 C CNN
+F 2 "" H 5650 7400 50  0001 C CNN
+F 3 "" H 5650 7400 50  0001 C CNN
+	1    5650 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Net:GND #PWR0135
+U 1 1 603653DC
+P 5910 6900
+F 0 "#PWR0135" H 5910 6650 50  0001 C CNN
+F 1 "GND" H 5915 6777 50  0000 C CNN
+F 2 "" H 5910 6900 50  0001 C CNN
+F 3 "" H 5910 6900 50  0001 C CNN
+	1    5910 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Net:GND #PWR0136
+U 1 1 60365A21
+P 4775 7605
+F 0 "#PWR0136" H 4775 7355 50  0001 C CNN
+F 1 "GND" H 4780 7482 50  0000 C CNN
+F 2 "" H 4775 7605 50  0001 C CNN
+F 3 "" H 4775 7605 50  0001 C CNN
+	1    4775 7605
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6610 6400 6610 6500
+Wire Wire Line
+	6610 6500 6510 6500
+Wire Wire Line
+	6110 6500 5910 6500
+Wire Wire Line
+	5910 6500 5910 6550
+Wire Wire Line
+	5910 6850 5910 6900
+Wire Wire Line
+	4775 6805 4775 6855
+Wire Wire Line
+	4775 7555 4775 7605
+Wire Wire Line
+	4450 6500 4450 2830
+Wire Wire Line
+	4450 2830 5330 2830
+Connection ~ 5910 6500
+Wire Wire Line
+	4395 3030 4395 7200
+Wire Wire Line
+	4395 3030 5330 3030
+Wire Wire Line
+	4450 6500 5910 6500
+Wire Wire Line
+	2415 1100 1700 1100
+Wire Wire Line
+	2415 4930 3900 4930
+Wire Wire Line
+	1700 1000 2485 1000
+Wire Wire Line
+	2415 1100 2415 4930
+Wire Wire Line
+	5330 4830 2485 4830
+Wire Wire Line
+	2485 1000 2485 4830
+Wire Notes Line
+	6255 905  6255 1620
+Wire Notes Line
+	6255 1620 5950 1620
+Wire Notes Line
+	5950 1620 5950 905 
+Wire Notes Line
+	5950 905  6255 905 
+Wire Notes Line
+	10105 970  10105 1955
+Wire Notes Line
+	10105 1955 8980 1955
+Wire Notes Line
+	8980 1955 8980 970 
+Wire Notes Line
+	8980 970  10105 970 
+Text Notes 8980 955  0    50   ~ 0
+Optional
+Wire Notes Line
+	5060 6820 5060 7170
+Wire Notes Line
+	5060 7170 4435 7170
+Wire Notes Line
+	4435 6820 5060 6820
+Wire Notes Line
+	4435 7170 4435 6820
+Text Notes 4425 6815 0    50   ~ 0
+Optional
+Wire Notes Line
+	1525 5230 1525 5740
+Wire Notes Line
+	1525 5740 1080 5740
+Wire Notes Line
+	1080 5740 1080 5230
+Wire Notes Line
+	1080 5230 1525 5230
+Text Notes 1060 5650 1    50   ~ 0
+Optional
+$Comp
+L Mechanic:SolderJumperNO S1
+U 1 1 60324338
+P 2800 1500
+F 0 "S1" H 2840 1500 50  0000 L CNN
+F 1 "SolderJumperNO" V 2915 1500 50  0001 C CNN
+F 2 "SC_Mechanic:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" V 2500 1500 50  0001 C CNN
+F 3 "~" H 3250 1600 50  0001 C CNN
+F 4 "Solder jumper" V 2580 1500 50  0001 C CNN "DValue"
+F 5 "2021-18-02" H 3325 1325 50  0001 C CNN "Published"
+F 6 "Ondrej Ruzicka" H 3325 1425 50  0001 C CNN "Publisher"
+F 7 "2021-18-02" H 3325 1225 50  0001 C CNN "LastRevisionDate"
+F 8 "init" H 3300 1525 50  0001 C CNN "LastRevisionNote"
+F 9 "-" H 3300 1600 50  0001 C CNN "PackageIndex"
+F 10 "K_MCH_000002" H 0   0   50  0001 C CNN "StockId"
+	1    2800 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 900  2800 900 
+$Comp
+L Net:+5V #PWR0138
+U 1 1 603253B2
+P 2800 1700
+F 0 "#PWR0138" H 2800 1550 50  0001 C CNN
+F 1 "+5V" H 2815 1873 50  0000 C CNN
+F 2 "" H 2800 1700 50  0001 C CNN
+F 3 "" H 2800 1700 50  0001 C CNN
+	1    2800 1700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Mechanic:SolderJumper2POS S4
+U 1 1 60327309
+P 1585 2835
+F 0 "S4" V 1482 2835 50  0000 C CNN
+F 1 "SolderJumper2POS" V 1455 2835 50  0001 C CNN
+F 2 "SC_Mechanic:SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm" V 1285 2835 50  0001 C CNN
+F 3 "~" H 2035 2935 50  0001 C CNN
+F 4 "Solder jumper 3 position" V 1365 2835 50  0001 C CNN "DValue"
+F 5 "2021-18-02" H 2110 2660 50  0001 C CNN "Published"
+F 6 "Ondrej Ruzicka" H 2110 2760 50  0001 C CNN "Publisher"
+F 7 "2021-18-02" H 2110 2560 50  0001 C CNN "LastRevisionDate"
+F 8 "init" H 2085 2860 50  0001 C CNN "LastRevisionNote"
+F 9 "-" H 2085 2935 50  0001 C CNN "PackageIndex"
+F 10 "K_MCH_000003" H 0   0   50  0001 C CNN "StockId"
+	1    1585 2835
+	0    -1   1    0   
+$EndComp
+$Comp
+L Mechanic:SolderJumper3POS S2
+U 1 1 60329809
+P 3900 2600
+F 0 "S2" H 3990 2690 50  0000 L CNN
+F 1 "SolderJumper3POS" V 3460 2600 50  0001 C CNN
+F 2 "SC_Mechanic:SolderJumper-4_P2.0mm_Open_TrianglePad1.0x1.5mm" V 3300 2600 50  0001 C CNN
+F 3 "~" H 4350 2700 50  0001 C CNN
+F 4 "Solder jumper 3 position" V 3380 2600 50  0001 C CNN "DValue"
+F 5 "2021-18-02" H 4425 2425 50  0001 C CNN "Published"
+F 6 "Ondrej Ruzicka" H 4425 2525 50  0001 C CNN "Publisher"
+F 7 "2021-18-02" H 4425 2325 50  0001 C CNN "LastRevisionDate"
+F 8 "init" H 4400 2625 50  0001 C CNN "LastRevisionNote"
+F 9 "-" H 4400 2700 50  0001 C CNN "PackageIndex"
+F 10 "K_MCH_000004" H 0   0   50  0001 C CNN "StockId"
+	1    3900 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 1350 2800 900 
+Connection ~ 2800 900 
+Wire Wire Line
+	2800 900  3200 900 
+Wire Wire Line
+	2800 1650 2800 1685
+Wire Wire Line
+	1785 2835 2045 2835
+Wire Wire Line
+	1585 2985 1585 3055
+Wire Wire Line
+	1585 3055 2045 3055
+Wire Wire Line
+	1385 2835 1075 2835
+Text Label 2045 2835 2    50   ~ 0
+PB7
+Text Label 2045 3055 2    50   ~ 0
+PB7\NRST
+Text Label 1075 2835 0    50   ~ 0
+NRST
+Wire Notes Line style solid rgb(132, 0, 0)
+	1545 2795 1715 2795
+Wire Notes Line style solid rgb(132, 0, 0)
+	1715 2795 1715 2885
+Wire Notes Line style solid rgb(132, 0, 0)
+	1715 2885 1545 2885
+Wire Notes Line style solid rgb(132, 0, 0)
+	1545 2885 1545 2795
+Wire Wire Line
+	3900 2370 3900 2400
+Wire Wire Line
+	3700 2600 3430 2600
+Wire Wire Line
+	3900 2800 3900 4930
+Connection ~ 3900 4930
+Wire Wire Line
+	3900 4930 5330 4930
+Wire Wire Line
+	4050 2600 7760 2600
+Wire Wire Line
+	7760 2600 7760 3230
+Wire Wire Line
+	7760 3230 7530 3230
+Text Label 3430 2600 0    50   ~ 0
+PB6
+Wire Notes Line style solid rgb(132, 0, 0)
+	3860 2560 3940 2560
+Wire Notes Line style solid rgb(132, 0, 0)
+	3940 2560 3940 2720
+Wire Notes Line style solid rgb(132, 0, 0)
+	3940 2720 3860 2720
+Wire Notes Line style solid rgb(132, 0, 0)
+	3860 2720 3860 2560
+Wire Wire Line
+	4680 3830 4680 4430
+Wire Wire Line
+	4680 3830 5330 3830
+Wire Wire Line
+	4680 4430 5330 4430
+Text Notes 4560 3800 0    50   ~ 0
+SigFox \noption
+Wire Wire Line
+	8970 3130 8820 3130
+Connection ~ 8820 3130
+Wire Wire Line
+	7530 3130 8320 3130
+Wire Wire Line
+	7630 2360 7630 2930
+Wire Wire Line
+	7530 2830 8000 2830
+Wire Wire Line
+	8000 2830 8000 2320
+Wire Wire Line
+	4100 900  4400 900 
+$Comp
+L Net:PWR_FLAG #FLG0103
+U 1 1 603819BC
+P 5250 900
+F 0 "#FLG0103" H 5250 975 50  0001 C CNN
+F 1 "PWR_FLAG" H 5250 1073 50  0000 C CNN
+F 2 "" H 5250 900 50  0001 C CNN
+F 3 "~" H 5250 900 50  0001 C CNN
+	1    5250 900 
+	-1   0    0    1   
+$EndComp
+Connection ~ 5250 900 
+$Comp
+L Net:PWR_FLAG #FLG0104
+U 1 1 6038DE99
+P 2800 1685
+F 0 "#FLG0104" H 2800 1760 50  0001 C CNN
+F 1 "PWR_FLAG" V 2800 1813 50  0000 L CNN
+F 2 "" H 2800 1685 50  0001 C CNN
+F 3 "~" H 2800 1685 50  0001 C CNN
+	1    2800 1685
+	0    1    1    0   
+$EndComp
+Connection ~ 2800 1685
+Wire Wire Line
+	2800 1685 2800 1700
+$Comp
+L Net:PWR_FLAG #FLG0105
+U 1 1 60394FC7
+P 8555 3130
+F 0 "#FLG0105" H 8555 3205 50  0001 C CNN
+F 1 "PWR_FLAG" H 8555 3303 50  0000 C CNN
+F 2 "" H 8555 3130 50  0001 C CNN
+F 3 "~" H 8555 3130 50  0001 C CNN
+	1    8555 3130
+	1    0    0    -1  
+$EndComp
+Connection ~ 8555 3130
+Wire Wire Line
+	8555 3130 8820 3130
+NoConn ~ 5330 5530
+NoConn ~ 5330 5630
+NoConn ~ 5330 5730
+NoConn ~ 5330 5930
+NoConn ~ 4930 2930
+Text Label 7930 3830 2    50   ~ 0
+PB8
+Text Label 7930 3930 2    50   ~ 0
+PB9
+$Comp
+L Net:PWR_FLAG #FLG0101
+U 1 1 604244BC
+P 7760 2600
+F 0 "#FLG0101" H 7760 2675 50  0001 C CNN
+F 1 "PWR_FLAG" H 7760 2773 50  0000 C CNN
+F 2 "" H 7760 2600 50  0001 C CNN
+F 3 "~" H 7760 2600 50  0001 C CNN
+	1    7760 2600
+	1    0    0    -1  
+$EndComp
+Connection ~ 7760 2600
+Wire Wire Line
+	6600 800  6600 1150
+Wire Wire Line
+	6600 1450 6600 1650
+Wire Wire Line
+	7400 800  7400 1150
+Wire Wire Line
+	7400 1450 7400 1650
+$Comp
+L Net:+3V3 #PWR0122
+U 1 1 603958B7
+P 5250 800
+F 0 "#PWR0122" H 5250 650 50  0001 C CNN
+F 1 "+3V3" H 5265 973 50  0000 C CNN
+F 2 "" H 5250 800 50  0001 C CNN
+F 3 "" H 5250 800 50  0001 C CNN
+	1    5250 800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Net:+3V3 #PWR0123
+U 1 1 60396887
+P 5800 900
+F 0 "#PWR0123" H 5800 750 50  0001 C CNN
+F 1 "+3V3" H 5815 1073 50  0000 C CNN
+F 2 "" H 5800 900 50  0001 C CNN
+F 3 "" H 5800 900 50  0001 C CNN
+	1    5800 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Net:+3V3 #PWR0124
+U 1 1 60398364
+P 10410 1180
+F 0 "#PWR0124" H 10410 1030 50  0001 C CNN
+F 1 "+3V3" H 10425 1353 50  0000 C CNN
+F 2 "" H 10410 1180 50  0001 C CNN
+F 3 "" H 10410 1180 50  0001 C CNN
+	1    10410 1180
+	1    0    0    -1  
+$EndComp
+$Comp
+L Net:+3V3 #PWR0125
+U 1 1 60398FC9
+P 7630 2360
+F 0 "#PWR0125" H 7630 2210 50  0001 C CNN
+F 1 "+3V3" H 7645 2533 50  0000 C CNN
+F 2 "" H 7630 2360 50  0001 C CNN
+F 3 "" H 7630 2360 50  0001 C CNN
+	1    7630 2360
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8325 2300 8325 2320
+$Comp
+L Net:+3V3 #PWR0126
+U 1 1 60399ABC
+P 8325 2300
+F 0 "#PWR0126" H 8325 2150 50  0001 C CNN
+F 1 "+3V3" H 8340 2473 50  0000 C CNN
+F 2 "" H 8325 2300 50  0001 C CNN
+F 3 "" H 8325 2300 50  0001 C CNN
+	1    8325 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8000 2320 8325 2320
+Connection ~ 8325 2320
+Wire Wire Line
+	8325 2320 8325 2350
+Wire Wire Line
+	8325 2320 8825 2320
+$Comp
+L Net:+3V3 #PWR0127
+U 1 1 6039AE5D
+P 9520 3030
+F 0 "#PWR0127" H 9520 2880 50  0001 C CNN
+F 1 "+3V3" H 9535 3203 50  0000 C CNN
+F 2 "" H 9520 3030 50  0001 C CNN
+F 3 "" H 9520 3030 50  0001 C CNN
+	1    9520 3030
+	1    0    0    -1  
+$EndComp
+$Comp
+L Net:+3V3 #PWR0128
+U 1 1 6039D337
+P 8705 5070
+F 0 "#PWR0128" H 8705 4920 50  0001 C CNN
+F 1 "+3V3" H 8720 5243 50  0000 C CNN
+F 2 "" H 8705 5070 50  0001 C CNN
+F 3 "" H 8705 5070 50  0001 C CNN
+	1    8705 5070
+	1    0    0    -1  
+$EndComp
+$Comp
+L Net:+3V3 #PWR0129
+U 1 1 6039D68D
+P 9005 5070
+F 0 "#PWR0129" H 9005 4920 50  0001 C CNN
+F 1 "+3V3" H 9020 5243 50  0000 C CNN
+F 2 "" H 9005 5070 50  0001 C CNN
+F 3 "" H 9005 5070 50  0001 C CNN
+	1    9005 5070
+	1    0    0    -1  
+$EndComp
+$Comp
+L Net:+3V3 #PWR0130
+U 1 1 6039E0B4
+P 10640 5375
+F 0 "#PWR0130" H 10640 5225 50  0001 C CNN
+F 1 "+3V3" H 10655 5548 50  0000 C CNN
+F 2 "" H 10640 5375 50  0001 C CNN
+F 3 "" H 10640 5375 50  0001 C CNN
+	1    10640 5375
+	1    0    0    -1  
+$EndComp
+$Comp
+L Net:+3V3 #PWR0131
+U 1 1 6039FED5
+P 6610 6400
+F 0 "#PWR0131" H 6610 6250 50  0001 C CNN
+F 1 "+3V3" H 6625 6573 50  0000 C CNN
+F 2 "" H 6610 6400 50  0001 C CNN
+F 3 "" H 6610 6400 50  0001 C CNN
+	1    6610 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Net:+3V3 #PWR0132
+U 1 1 603A0A33
+P 4775 6805
+F 0 "#PWR0132" H 4775 6655 50  0001 C CNN
+F 1 "+3V3" H 4790 6978 50  0000 C CNN
+F 2 "" H 4775 6805 50  0001 C CNN
+F 3 "" H 4775 6805 50  0001 C CNN
+	1    4775 6805
+	1    0    0    -1  
+$EndComp
+$Comp
+L Net:+3V3 #PWR0133
+U 1 1 603A33BF
+P 3900 2370
+F 0 "#PWR0133" H 3900 2220 50  0001 C CNN
+F 1 "+3V3" H 3915 2543 50  0000 C CNN
+F 2 "" H 3900 2370 50  0001 C CNN
+F 3 "" H 3900 2370 50  0001 C CNN
+	1    3900 2370
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1095 3705 1095 3725
+$Comp
+L Net:+3V3 #PWR0137
+U 1 1 603A511F
+P 1095 3705
+F 0 "#PWR0137" H 1095 3555 50  0001 C CNN
+F 1 "+3V3" H 1110 3878 50  0000 C CNN
+F 2 "" H 1095 3705 50  0001 C CNN
+F 3 "" H 1095 3705 50  0001 C CNN
+	1    1095 3705
+	1    0    0    -1  
+$EndComp
+Connection ~ 1095 3725
+Wire Wire Line
+	1095 3725 1095 3755
+$Comp
+L Net:+3V3 #PWR0139
+U 1 1 603A5B83
+P 1300 5240
+F 0 "#PWR0139" H 1300 5090 50  0001 C CNN
+F 1 "+3V3" H 1315 5413 50  0000 C CNN
+F 2 "" H 1300 5240 50  0001 C CNN
+F 3 "" H 1300 5240 50  0001 C CNN
+	1    1300 5240
+	1    0    0    -1  
+$EndComp
+$Comp
+L Net:+3V3 #PWR0140
+U 1 1 603A6A22
+P 1300 7000
+F 0 "#PWR0140" H 1300 6850 50  0001 C CNN
+F 1 "+3V3" V 1315 7128 50  0000 L CNN
+F 2 "" H 1300 7000 50  0001 C CNN
+F 3 "" H 1300 7000 50  0001 C CNN
+	1    1300 7000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Mechanic:Testpoint_round_D1,4mm TP1
+U 1 1 60421B5A
+P 5910 6400
+F 0 "TP1" V 5975 6470 50  0000 R CNN
+F 1 "Testpoint_round_D1,4mm" V 5470 6400 50  0001 C CNN
+F 2 "SC_Mechanic:TestPoint_Pad_d1,4mm" V 5310 6400 50  0001 C CNN
+F 3 "~" H 6360 6500 50  0001 C CNN
+F 4 "Testpoint" V 5390 6400 50  0001 C CNN "DValue"
+F 5 "2021-03-03" H 6435 6225 50  0001 C CNN "Published"
+F 6 "Ondrej Ruzicka" H 6435 6325 50  0001 C CNN "Publisher"
+F 7 "2021-03-03" H 6435 6125 50  0001 C CNN "LastRevisionDate"
+F 8 "init" H 6410 6425 50  0001 C CNN "LastRevisionNote"
+F 9 "-" H 6410 6500 50  0001 C CNN "PackageIndex"
+F 10 "MCH_000061" H 0   0   50  0001 C CNN "StockId"
+	1    5910 6400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:KETCube_Socket_microBUS J1
+U 1 1 6040D536
+P 2000 6600
+F 0 "J1" H 2000 7465 50  0000 C CNN
+F 1 "KETCube_Socket_microBUS" H 2000 7350 50  0001 C CNN
+F 2 "SC_Connector:KETCube_microBUS_32x32mm_P2.54mm_VERTICAL_THT" H 2000 7450 50  0001 C CNN
+F 3 "https://github.com/SmartCAMPUSZCU/KETCube-docs/blob/master/KETCubeDatasheet.pdf" H 2000 6800 50  0001 C CNN
+F 4 "KETCube THT Socket with microBUS" H 2000 5675 50  0001 C CNN "Description"
+F 5 "KETCube microBUS socket" H 2000 7374 50  0000 C CNN "DValue"
+F 6 "2021-02-13" H 2000 5350 50  0001 C CNN "Published"
+F 7 "Jan Belohoubek" H 2000 5450 50  0001 C CNN "Publisher"
+F 8 "2021-02-13" H 2000 5250 50  0001 C CNN "LastRevisionDate"
+F 9 "-" H 2000 6800 50  0001 C CNN "LastRevisionNote"
+F 10 "" H 0   0   50  0001 C CNN "StockId"
+F 11 "CON_000358;CON_000361;CON_000370;" H 0   0   50  0001 C CNN "SubParts"
+	1    2000 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TMS-105-02-L-S-RA J3
+U 1 1 6042549A
+P 9510 1480
+F 0 "J3" H 9790 1825 50  0000 C CNN
+F 1 "TMS-105-02-L-S-RA" V 9910 1470 50  0001 C CNN
+F 2 "SC_Connector:TMS-105-02-L-S-RA_1x5_P1.27_Horizontal_Offcentered_TestPads" V 8580 1480 50  0001 C CNN
+F 3 "https://cz.mouser.com/datasheet/2/527/tms_th-1344499.pdf" H 9960 1580 50  0001 C CNN
+F 4 "1x5 Right angle 50mil male pin" H 9445 1110 50  0000 C CNN "DValue"
+F 5 "2020-11-27" H 10250 1320 50  0001 C CNN "Published"
+F 6 "Ondrej Ruzicka" H 10250 1410 50  0001 C CNN "Publisher"
+F 7 "2021-03-03" H 10250 1220 50  0001 C CNN "LastRevisionDate"
+F 8 "init" H 10260 1500 50  0001 C CNN "LastRevisionNote"
+F 9 "-" H 10260 1580 50  0001 C CNN "PackageIndex"
+F 10 "CON_000371" H 0   0   50  0001 C CNN "StockId"
+	1    9510 1480
+	-1   0    0    -1  
+$EndComp
+$Comp
+L ICs_Digital:HDC2080DMBT IC3
+U 1 1 6042AE6F
+P 9805 5670
+F 0 "IC3" H 9805 6137 50  0000 C CNN
+F 1 "HDC2080DMBT" H 9795 5310 50  0001 C CNN
+F 2 "SC_ICs_Digital:PWSON-6-1EP_3x3mm_P1mm" V 8875 5670 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/hdc2080.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&DCM=yes&ref_url=https%3A%2F%2Fcz.mouser.com%2F&distId=26" H 10055 5780 50  0001 C CNN
+F 4 "HDC2080 RHT" H 9805 6046 50  0000 C CNN "DValue"
+F 5 "2020-03-02" H 10955 5610 50  0001 C CNN "Published"
+F 6 "Ondrej Ruzicka" H 10965 5700 50  0001 C CNN "Publisher"
+F 7 "2021-03-02" H 10955 5500 50  0001 C CNN "LastRevisionDate"
+F 8 "init" H 10955 5800 50  0001 C CNN "LastRevisionNote"
+F 9 "-" H 10955 5880 50  0001 C CNN "PackageIndex"
+F 10 "ICS_000896" H 0   0   50  0001 C CNN "StockId"
+	1    9805 5670
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10305 5770 10405 5770
+Wire Wire Line
+	10405 5770 10405 5870
+Connection ~ 10405 5870
+$Comp
+L Mechanic:Fiducial_D0,8mm FID1
+U 1 1 6043B89B
+P 2960 5495
+F 0 "FID1" H 3045 5495 50  0000 L CNN
+F 1 "Fiducial_D0,8mm" V 2640 5495 50  0001 C CNN
+F 2 "SC_Mechanic:Fiducial_0.8mm_Mask1.6mm" V 2480 5495 50  0001 C CNN
+F 3 "~" H 3410 5595 50  0001 C CNN
+F 4 "Fiducial" V 2560 5495 50  0001 C CNN "DValue"
+F 5 "2021-04-03" H 3485 5320 50  0001 C CNN "Published"
+F 6 "Ondrej Ruzicka" H 3485 5420 50  0001 C CNN "Publisher"
+F 7 "2021-04-03" H 3485 5220 50  0001 C CNN "LastRevisionDate"
+F 8 "init" H 3460 5520 50  0001 C CNN "LastRevisionNote"
+F 9 "-" H 3460 5595 50  0001 C CNN "PackageIndex"
+F 10 "MCH_000050" H 0   0   50  0001 C CNN "StockId"
+	1    2960 5495
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanic:Fiducial_D0,8mm FID2
+U 1 1 604523EB
+P 2960 5660
+F 0 "FID2" H 3045 5660 50  0000 L CNN
+F 1 "Fiducial_D0,8mm" V 2640 5660 50  0001 C CNN
+F 2 "SC_Mechanic:Fiducial_0.8mm_Mask1.6mm" V 2480 5660 50  0001 C CNN
+F 3 "~" H 3410 5760 50  0001 C CNN
+F 4 "Fiducial" V 2560 5660 50  0001 C CNN "DValue"
+F 5 "2021-04-03" H 3485 5485 50  0001 C CNN "Published"
+F 6 "Ondrej Ruzicka" H 3485 5585 50  0001 C CNN "Publisher"
+F 7 "2021-04-03" H 3485 5385 50  0001 C CNN "LastRevisionDate"
+F 8 "init" H 3460 5685 50  0001 C CNN "LastRevisionNote"
+F 9 "-" H 3460 5760 50  0001 C CNN "PackageIndex"
+F 10 "MCH_000050" H 0   0   50  0001 C CNN "StockId"
+	1    2960 5660
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanic:Fiducial_D0,8mm FID3
+U 1 1 604612F0
+P 2965 5830
+F 0 "FID3" H 3050 5830 50  0000 L CNN
+F 1 "Fiducial_D0,8mm" V 2645 5830 50  0001 C CNN
+F 2 "SC_Mechanic:Fiducial_0.8mm_Mask1.6mm" V 2485 5830 50  0001 C CNN
+F 3 "~" H 3415 5930 50  0001 C CNN
+F 4 "Fiducial" V 2565 5830 50  0001 C CNN "DValue"
+F 5 "2021-04-03" H 3490 5655 50  0001 C CNN "Published"
+F 6 "Ondrej Ruzicka" H 3490 5755 50  0001 C CNN "Publisher"
+F 7 "2021-04-03" H 3490 5555 50  0001 C CNN "LastRevisionDate"
+F 8 "init" H 3465 5855 50  0001 C CNN "LastRevisionNote"
+F 9 "-" H 3465 5930 50  0001 C CNN "PackageIndex"
+F 10 "MCH_000050" H 0   0   50  0001 C CNN "StockId"
+	1    2965 5830
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanic:Fiducial_D0,8mm FID4
+U 1 1 6046FFFD
+P 2970 5990
+F 0 "FID4" H 3055 5990 50  0000 L CNN
+F 1 "Fiducial_D0,8mm" V 2650 5990 50  0001 C CNN
+F 2 "SC_Mechanic:Fiducial_0.8mm_Mask1.6mm" V 2490 5990 50  0001 C CNN
+F 3 "~" H 3420 6090 50  0001 C CNN
+F 4 "Fiducial" V 2570 5990 50  0001 C CNN "DValue"
+F 5 "2021-04-03" H 3495 5815 50  0001 C CNN "Published"
+F 6 "Ondrej Ruzicka" H 3495 5915 50  0001 C CNN "Publisher"
+F 7 "2021-04-03" H 3495 5715 50  0001 C CNN "LastRevisionDate"
+F 8 "init" H 3470 6015 50  0001 C CNN "LastRevisionNote"
+F 9 "-" H 3470 6090 50  0001 C CNN "PackageIndex"
+F 10 "MCH_000050" H 0   0   50  0001 C CNN "StockId"
+	1    2970 5990
+	1    0    0    -1  
+$EndComp
+NoConn ~ 9305 5770
+NoConn ~ 10305 5570
+$Comp
+L Discrete:PMEG2010AEB.115 D4
+U 1 1 6060733C
+P 4800 900
+F 0 "D4" H 4800 683 50  0000 C CNN
+F 1 "PMEG2010AEB.115" H 4800 730 50  0001 C CNN
+F 2 "SC_Discrete:D_SOD-523" V 4190 900 50  0001 C CNN
+F 3 "https://www.tme.eu/Document/a8878c5333b48ac319623e17480b4f04/PMEG2010AEB.pdf" H 5250 1000 50  0001 C CNN
+F 4 "PMEG2010 schottky" H 4800 774 50  0000 C CNN "DValue"
+F 5 "2020-03-27" H 5570 850 50  0001 C CNN "Published"
+F 6 "Ondrej Ruzicka" H 5580 940 50  0001 C CNN "Publisher"
+F 7 "2021-03-27" H 5570 740 50  0001 C CNN "LastRevisionDate"
+F 8 "init" H 5570 1040 50  0001 C CNN "LastRevisionNote"
+F 9 "-" H 5570 1120 50  0001 C CNN "PackageIndex"
+F 10 "K_DIO_000000" H 0   0   50  0001 C CNN "StockId"
+	1    4800 900 
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switches:Panasonic_EVQ-P7J01P SW1
+U 1 1 62E37406
+P 6310 6500
+F 0 "SW1" H 6300 6700 50  0000 C CNN
+F 1 "Panasonic_EVQ-P7J01P" H 6325 6710 50  0001 C CNN
+F 2 "SC_Switches:Panasonic_EVQ-P7J01P" H 6305 6875 50  0001 C CNN
+F 3 "https://cz.mouser.com/datasheet/2/315/sw_lt_eng_3529s_side-1289027.pdf" H 6760 6600 50  0001 C CNN
+F 4 "Pushbutton SMD" H 6350 6400 50  0000 C CNN "DValue"
+F 5 "SWI_000034" H 6335 6780 50  0001 C CNN "StockId"
+F 6 "2021-02-15" H 6335 6040 50  0001 C CNN "Published"
+F 7 "Ondrej Ruzicka" H 6335 6140 50  0001 C CNN "Publisher"
+F 8 "2021-02-15" H 6335 5940 50  0001 C CNN "LastRevisionDate"
+F 9 "init" H 6310 6240 50  0001 C CNN "LastRevisionNote"
+F 10 "-" H 6310 6315 50  0001 C CNN "PackageIndex"
+	1    6310 6500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 7400 5650 7200
+$Comp
+L Switches:Panasonic_EVQ-P7J01P SW2
+U 1 1 62E3DBEF
+P 5250 7200
+F 0 "SW2" H 5230 7400 50  0000 C CNN
+F 1 "Panasonic_EVQ-P7J01P" H 5265 7410 50  0001 C CNN
+F 2 "SC_Switches:Panasonic_EVQ-P7J01P" H 5245 7575 50  0001 C CNN
+F 3 "https://cz.mouser.com/datasheet/2/315/sw_lt_eng_3529s_side-1289027.pdf" H 5700 7300 50  0001 C CNN
+F 4 "Pushbutton SMD" H 5250 7106 50  0000 C CNN "DValue"
+F 5 "SWI_000034" H 5275 7480 50  0001 C CNN "StockId"
+F 6 "2021-02-15" H 5275 6740 50  0001 C CNN "Published"
+F 7 "Ondrej Ruzicka" H 5275 6840 50  0001 C CNN "Publisher"
+F 8 "2021-02-15" H 5275 6640 50  0001 C CNN "LastRevisionDate"
+F 9 "init" H 5250 6940 50  0001 C CNN "LastRevisionNote"
+F 10 "-" H 5250 7015 50  0001 C CNN "PackageIndex"
+	1    5250 7200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4775 7155 4775 7200
+Wire Wire Line
+	5450 7200 5650 7200
+Wire Wire Line
+	4395 7200 4775 7200
+Connection ~ 4775 7200
+Wire Wire Line
+	4775 7200 4775 7255
+Wire Wire Line
+	4775 7200 5050 7200
+$EndSCHEMATC

@@ -7,6 +7,10 @@ repository.
 
 This repository contains KETCube mainBoard.
 
+**Note: the current branch may contain unverified or work-in-progress design!**
+
+If you would like to use the latest released and proven board variant, please use the [lates release](https://github.com/SmartCAMPUSZCU/KETCube-mainBoard/releases/latest).
+
 ## About KETCube mainBoard
 KETCube mainBoard is the core part of the KETCube platform.  It is 
 equipped with mikroBUS<sup>TM</sup>/KETCube sockets to enable connection of

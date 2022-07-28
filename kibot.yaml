@@ -1,0 +1,220 @@
+kibot:
+  version: 1
+
+preflight:
+  check_zone_fills: true
+  run_erc: true
+  run_drc: true
+  ignore_unconnected: false
+  update_xml: true
+  filters:
+    - filter: 'The board dimensions are very small, thus courtyard overlaps are sometimes permited'
+      error: '45'
+      regex:  'Footprint IC1 on F.Cu'
+    - filter: 'The board dimensions are very small, thus courtyard overlaps are sometimes permited'
+      error: '45'
+      regex:  'Footprint C4 on F.Cu'
+    - filter: 'The board dimensions are very small, thus courtyard overlaps are sometimes permited'
+      error: '45'
+      regex:  'Footprint IC3 on F.Cu'
+    - filter: 'The board dimensions are very small, thus courtyard overlaps are sometimes permited'
+      error: '45'
+      regex:  'Footprint TP1 on F.Cu'
+    - filter: 'The board dimensions are very small, thus courtyard overlaps are sometimes permited'
+      error: '45'
+      regex:  'Footprint S2 on F.Cu'
+    - filter: 'The board dimensions are very small, thus courtyard overlaps are sometimes permited'
+      error: '45'
+      regex:  'Footprint S1 on F.Cu'
+    - filter: 'The board dimensions are very small, thus courtyard overlaps are sometimes permited'
+      error: '45'
+      regex:  'Footprint IC2 on F.Cu'
+    - filter: 'The board dimensions are very small, thus courtyard overlaps are sometimes permited'
+      error: '45'
+      regex:  'Footprint C6 on F.Cu'
+    - filter: 'The board dimensions are very small, thus courtyard overlaps are sometimes permited'
+      error: '45'
+      regex:  'Footprint C3 on F.Cu'
+    - filter: 'The board dimensions are very small, thus courtyard overlaps are sometimes permited'
+      error: '45'
+      regex:  'Footprint TP1 on F.Cu'
+    - filter: 'The board dimensions are very small, thus courtyard overlaps are sometimes permited'
+      error: '45'
+      regex:  'Footprint D7 on F.Cu'
+    - filter: 'The board dimensions are very small, thus courtyard overlaps are sometimes permited'
+      error: '45'
+      regex:  'Footprint SW1 on F.Cu'
+
+  #KiCAD 5
+  sch_replace:
+    date_command: "git log -1 --format='%as' -- $KIBOT_SCH_NAME"
+    replace_tags:
+      - tag: 'git_hash'
+        command: 'git log -1 --format="%h" $KIBOT_SCH_NAME'
+        before: '<'
+        after: '>'
+  pcb_replace:
+    date_command: "git log -1 --format='%as' -- $KIBOT_PCB_NAME"
+    replace_tags:
+      - tag: 'git_hash'
+        command: 'git log -1 --format="%h" $KIBOT_PCB_NAME'
+        before: '<'
+        after: '>'
+# KiCAD 6      
+#  set_text_variables:
+#    - name: 'git_hash'
+#      command: 'git log -1 --format="%h" $KIBOT_PCB_NAME'
+#      before: 'Git:'
+
+# Comment-out and modify when using variants
+#variants:
+#  - name: 'default'
+#    comment: 'Minimal PCB no USB'
+#    type: kibom
+#
+#  - name: 'USB'
+#    comment: 'Full board'
+#    type: kibom
+#    file_id: _USB
+#    variant: USB
+
+outputs:
+  - name: 'BOM'
+    comment: "Spreadsheet for the Bill of Materials"
+    type: bom
+    dir: BOM
+    options: &bom_options
+      xlsx:
+        datasheet_as_link: MFP
+        title: Bill of Materials
+        max_col_width: 40
+        highlight_empty: false
+        logo: .kibot/smartCAMPUSZCU_logo_small.png
+        logo_scale: 1
+      columns:
+        - Row
+        - References
+        - Quantity Per PCB
+        - field: value
+          name: Value
+        - field: StockId
+          join: ['SubParts' ]
+          name: Stock Part Numbers
+        - Footprint
+      normalize_values: true
+
+  - name: 'BOM_html'
+    comment: "KETCube BOM: HTML for the Bill of Materials"
+    type: bom
+    dir: BOM
+    options:
+      <<: *bom_options
+      format: HTML
+      html:
+        datasheet_as_link: MFP
+        title: Bill of Materials
+        highlight_empty: false
+        logo: .kibot/smartCAMPUSZCU_logo.png
+
+  - name: IBOM
+    comment: 'Mounting Guide'
+    type: ibom
+    dir: ASSEMBLY
+    options:
+      layer_view: F
+      extra_fields: "StockId,SubParts"
+      group_fields: "Value,Footprint"
+
+  - name: 'schematic'
+    comment: "Schematic PDF"
+    type: pdf_sch_print
+    dir: ASSEMBLY
+
+  - name: gerbers
+    comment: Gerbers
+    type: gerber
+    dir: MANUFACTURE
+    layers:
+      - copper
+      - Edge.Cuts
+      - F.SilkS
+      - B.SilkS
+      - F.Mask
+      - B.Mask
+      - F.Paste
+      - F.Adhes
+      - F.Fab
+      - F.CrtYd
+      - Dwgs.User
+
+  - name: drill
+    comment: Drill files
+    type: excellon
+    dir: MANUFACTURE
+    options:
+      map:
+        type: pdf
+      pth_and_npth_single_file: false
+      metric_units: true
+      use_aux_axis_as_origin: true
+      zeros_format: KEEP_ZEROS
+      left_digits: 0
+      right_digits: 0
+      metric_units: true
+
+  - name: pick_and_place
+    comment: Pick & Place
+    type: position
+    dir: MANUFACTURE
+    options:
+      separate_files_for_front_and_back: false
+
+  - name: assembly
+    comment: "PDF for the PCB"
+    type: pcb_print
+    dir: ASSEMBLY
+    options:
+      force_edge_cuts: true
+      keep_temporal_files: true
+      title: "KETCube Assembly"
+      scaling: 2.0
+      pages:
+        - layers: [ F.Paste, F.Adhes, Dwgs.User, F.Fab ]
+          sheet: 'Fabrication layers'
+        - layers: [ F.Cu, F.SilkS, Dwgs.User ]
+          sheet: 'Top layer'
+        - layers: [ B.Cu, B.SilkS, Dwgs.User ]
+          sheet: 'Bottom layer'
+          mirror: true
+
+  - name: board_top
+    comment: "Top layer view"
+    type: pcbdraw
+    dir: PREVIEW
+    options:
+      format: jpg
+      dpi: 300
+
+  - name: board_bottom
+    comment: "Bottom layer view"
+    type: pcbdraw
+    dir: PREVIEW
+    options:
+      format: jpg
+      dpi: 300
+      bottom: true
+      
+  - name: 3D
+    comment: "STEP 3D model"
+    type: step
+    dir: PREVIEW
+
+  - name: 3D_top_view
+    comment: "3D render from top"
+    type: render_3d
+    dir: PREVIEW
+    options:
+      zoom: 2
+      rotate_x: 3
+      rotate_z: 3
+      ray_tracing: true
