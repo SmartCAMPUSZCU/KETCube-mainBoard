@@ -89,7 +89,7 @@ outputs:
         title: Bill of Materials
         max_col_width: 40
         highlight_empty: false
-        logo: .kibot/smartCAMPUSZCU_logo_small.png
+        logo: .data/logo_small.png
         logo_scale: 1
       columns:
         - Row
@@ -114,7 +114,7 @@ outputs:
         datasheet_as_link: MFP
         title: Bill of Materials
         highlight_empty: false
-        logo: .kibot/smartCAMPUSZCU_logo.png
+        logo: .data/logo.png
 
   - name: IBOM
     comment: 'Mounting Guide'

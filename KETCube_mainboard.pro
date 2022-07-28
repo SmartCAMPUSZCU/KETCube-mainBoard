@@ -14,7 +14,7 @@ LibDir=
 [eeschema/libraries]
 [pcbnew]
 version=1
-PageLayoutDescrFile=.kibot/layout.kicad_wks
+PageLayoutDescrFile=.data/layout.kicad_wks
 LastNetListRead=
 CopperLayerCount=2
 BoardThickness=1.6
@@ -243,7 +243,7 @@ dPairGap=0.25
 dPairViaGap=0.25
 [schematic_editor]
 version=1
-PageLayoutDescrFile=.kibot/layout.kicad_wks
+PageLayoutDescrFile=.data/layout.kicad_wks
 PlotDirectoryName=Outputs/
 SubpartIdSeparator=0
 SubpartFirstId=65
