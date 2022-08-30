@@ -1,4 +1,4 @@
-update=Po 16. srpna 2021, 13:58:35
+update=Po 29. srpna 2022, 15:35:39
 version=1
 last_client=kicad
 [general]

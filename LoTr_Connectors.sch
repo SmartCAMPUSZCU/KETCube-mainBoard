@@ -21,7 +21,7 @@ AR Path="/60C67AF0" Ref="J?"  Part="1"
 AR Path="/60C5C960/60C67AF0" Ref="J2"  Part="1" 
 F 0 "J2" H 6000 5405 50  0000 C CNN
 F 1 "KETCube_Socket" H 6000 5200 50  0001 C CNN
-F 2 "SC_Connector:KETCube_32x32mm_P2.54mm_VERTICAL_THT" H 6000 5300 50  0001 C CNN
+F 2 "SC_Connector:KETCube_microBUS_32x32mm_P2.54mm_VERTICAL_SMT_THT" H 6000 5300 50  0000 C CNN
 F 3 "https://github.com/SmartCAMPUSZCU/KETCube-docs/blob/master/KETCubeDatasheet.pdf" H 6000 4650 50  0001 C CNN
 F 4 "KETCube THT Socket" H 6000 5314 50  0000 C CNN "Description"
 F 5 "K_CON_000001" H 6000 4800 50  0001 C CNN "rice#"
@@ -445,63 +445,21 @@ Wire Wire Line
 	5400 4250 4950 4250
 Wire Wire Line
 	4950 4350 5400 4350
-$Comp
-L LoTr-rescue:SSM-108-S-SV-Connector J4
-U 1 1 61066FC3
-P 6900 4650
-F 0 "J4" H 6900 4150 50  0000 C CNN
-F 1 "SSM-108-S-SV" V 7000 4650 50  0001 C CNN
-F 2 "SC_Connector:SSM-108-S-SV_1x08_P2.54mm_Vertical_SMT" V 6300 4650 50  0001 C CNN
-F 3 "https://suddendocs.samtec.com/catalog_english/ssm_sm.pdf" H 7350 4750 50  0001 C CNN
-F 4 "1x8 socket, 8mm leads" H 6800 5050 50  0000 C CNN "DValue"
-F 5 "K_CON_000003" H 6925 5075 50  0001 C CNN "#rice"
-F 6 "2021-07-21" H 7425 4475 50  0001 C CNN "Published"
-F 7 "Jan Belohoubek" H 7425 4575 50  0001 C CNN "Publisher"
-F 8 "2021-07-21" H 7425 4375 50  0001 C CNN "LastRevisionDate"
-F 9 "init" H 7400 4675 50  0001 C CNN "LastRevisionNote"
-F 10 "-" H 7400 4750 50  0001 C CNN "PackageIndex"
-	1    6900 4650
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	6600 4250 7100 4250
-Wire Wire Line
-	7100 4250 7450 4250
-Connection ~ 7100 4250
-Wire Wire Line
-	7100 4350 7550 4350
-Wire Wire Line
-	7100 4350 6600 4350
-Connection ~ 7100 4350
-Wire Wire Line
-	6600 4450 7100 4450
-Wire Wire Line
-	7100 4450 7700 4450
-Connection ~ 7100 4450
-Wire Wire Line
-	7100 4550 7700 4550
-Wire Wire Line
-	7100 4650 7700 4650
-Wire Wire Line
-	7100 4750 7700 4750
-Wire Wire Line
-	7100 4950 7500 4950
-Wire Wire Line
-	6600 4950 7100 4950
-Connection ~ 7100 4950
-Wire Wire Line
-	6600 4850 7100 4850
-Connection ~ 7100 4850
-Wire Wire Line
-	6600 4750 7100 4750
-Connection ~ 7100 4750
-Wire Wire Line
-	6600 4650 7100 4650
-Connection ~ 7100 4650
-Wire Wire Line
-	6600 4550 7100 4550
-Connection ~ 7100 4550
-Wire Wire Line
-	7100 4850 7550 4850
 Connection ~ 7550 4850
+Wire Wire Line
+	6600 4950 7500 4950
+Wire Wire Line
+	6600 4850 7550 4850
+Wire Wire Line
+	6600 4750 7700 4750
+Wire Wire Line
+	6600 4650 7700 4650
+Wire Wire Line
+	6600 4550 7700 4550
+Wire Wire Line
+	6600 4450 7700 4450
+Wire Wire Line
+	6600 4350 7550 4350
+Wire Wire Line
+	6600 4250 7450 4250
 $EndSCHEMATC
