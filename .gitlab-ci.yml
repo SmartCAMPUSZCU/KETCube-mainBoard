@@ -1,0 +1,17 @@
+default:
+  image: kibot-kicad5
+  tags:
+    - kibot-kicad5
+
+kibot:
+  stage: build
+  script:
+    - echo "Run KiBot:"
+    - kibot -c kibot.yaml
+  artifacts:
+    paths:
+      - ASSEMBLY
+      - BOM
+      - PREVIEW
+      - MANUFACTURE
+    expire_in: 7 days
